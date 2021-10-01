@@ -1,0 +1,5989 @@
+﻿; Language: zh_CN, Simplified Chinese，简体中文, 汉语
+;
+; Author: Yohann Che, cheyong007@live.com
+; Last Modified: 2021/9/26 8:27
+; EXIF Ver: 2.32
+; ----------------------------
+; PROGRESS:
+; DONE: [(0101-)0001]-[(0102-)A500]
+; MISSING: MakerNote
+; -----------------------------
+;
+; Reference: 
+; Exif 2.32: CIPA DC-008 Translation 2019 (also JEITA 3451-E)
+; ExifTool: https://www.exiftool.org/TagNames/EXIF.html
+; Opanda IExif v2.3's language file 'ExifLib2S-zh-CN.ini'
+; XnViewMP language files: exif_**.lng.
+;
+; Description:
+; Some missing tags are added to this file.
+; Because all exif_xx.lng file are about 10 years ago!
+; The newest is exif_de.lng(2020) and others are in 2010 around.
+;
+; Explanation:
+; The comments(Name, type, values, question, etc.) are ABOVE the tag's address([]).
+; All the values are HEX.
+;
+; Problem:
+; Values in 'ValueList=' numbers are dec or hex?
+; Different Image Formats have different Tag Groups, Different Makers too.
+; The OFFSET ADDRESSes of the Tag Group are not mentioned either in the Standard Specification,
+; Nor the exif tool's language file and docs.
+; 
+; I am not professional for the images,
+; and do not know much about the images file formats.
+;
+; NOT for sure: 
+; The Terminology/Glossory exact meaning, 
+; some have multiple translations with different means.
+; 
+; NOT for sure of the missing tag offset addresses of this lng file.
+; The higher offset address is by my guess, and there may be mistakes.
+; The Exif tool doc shows the following groups:
+;       ExifIFD
+;       IFD0
+;       IFD1
+;       IFD2
+;       InteropIFD
+;       MakerNotes
+;       SubIFD
+;       SubIFD1
+;       SubIFD2
+; ????????????????????????????????????????????????????
+; ? IFD0, IFD1, IFD2, SubIFD, SubIFD1, SubIFD2 in 0101(Main IFD) ?
+; ? ExifIFD in 0102(Camera IFD) ?
+; ? Where is 0103(GPS IFD) ?
+; ? InteropIFD in 0104(IOP IFD) ?
+; ? MakerNots in what ?
+; ????????????????????????????????????????????????????
+; HOPE SOMEONE CAN HELP ME, THANKS A LOT.
+; ----------------------------------------------------
+[APP1]
+0=APP1 Marker
+1=APP1 Length
+2=Exif Identifier Code
+3=TIFF Header
+4=0th IFD
+5=0th IFD Value
+6=1st IFD
+7=1st IFD Value
+8=1st (Thumbnail) Image Data
+9=0th (Primary) Image Data
+
+[IFD]
+0101=IFD Image
+0102=IFD Exif
+0103=IFD GPS
+0104=IFD Interoperability
+0201=IFD Thumbnail Info
+0202=IFD Thumbnail
+1C01=IPTC NAA
+1C02=IPTC RMF
+A001=MakerNote (Canon)
+A002=MakerNote (Nikon)
+A003=MakerNote (Fujifilm)
+A004=MakerNote (Kodak)
+A005=MakerNote (Olympus)
+A006=MakerNote (Sony)
+A007=MakerNote (Sanyo)
+A008=MakerNote (Casio)
+A009=MakerNote (Sigma)
+A00A=MakerNote (KonicaMinolta)
+A00B=MakerNote (Konica)
+A00C=MakerNote (Minolta)
+A00D=MakerNote (Lecia)
+A00E=MakerNote (Epson)
+A010=MakerNote (Canon)
+A020=MakerNote (Nikon)
+A030=MakerNote (Nikon)
+A040=MakerNote (Casio)
+A050=MakerNote (Casio)
+A060=MakerNote (Fuji)
+A070=MakerNote (Olympus)
+A080=MakerNote (Sigma)
+A090=MakerNote (Sanyo)
+A0A0=MakerNote (Minolta)
+A0B0=MakerNote (Minolta)
+A0C0=MakerNote (Panasonic)
+
+
+
+; ---------------------IFD info ----------------------
+[0101]
+Label=图像信息
+[0102]
+Label=相机拍摄记录
+[0103]
+Label=GPS全球定位
+[0104]
+Label=可交换信息
+[0201]
+Label=缩略图信息
+[0202]
+Label=缩略图
+[1C01]
+Label=IPTC NAA
+[1C02]
+Label=IPTC RMF
+[A001]
+Label=厂商注释(Canon)
+[A002]
+Label=厂商注释(Nikon)
+[A003]
+Label=厂商注释(Fujifilm)
+[A004]
+Label=厂商注释(Kodak)
+[A005]
+Label=厂商注释(Olympus)
+[A006]
+Label=厂商注释(Sony)
+[A007]
+Label=厂商注释(Sanyo)
+[A008]
+Label=厂商注释(Casio)
+[A009]
+Label=厂商注释(Sigma)
+[A00A]
+Label=厂商注释(KonicaMinolta)
+[A00B]
+Label=厂商注释(Konica)
+[A00C]
+Label=厂商注释(Minolta)
+[A00D]
+Label=厂商注释(Lecia)
+[A00E]
+Label=厂商注释(Epson)
+[A010]
+Label=厂商注释(Canon)
+[A020]
+Label=厂商注释(Nikon)
+[A030]
+Label=厂商注释(Nikon)
+[A040]
+Label=厂商注释(Casio)
+[A050]
+Label=厂商注释(Casio)
+[A060]
+Label=厂商注释(Fuji)
+[A070]
+Label=厂商注释(Olympus)
+[A080]
+Label=厂商注释(Sigma)
+[A090]
+Label=厂商注释(Sanyo)
+[A0A0]
+Label=厂商注释(Minolta)
+[A0B0]
+Label=厂商注释(Minolta)
+[A0C0]
+Label=厂商注释(Panasonic)
+
+; --------------------- Main IFD ---------------------
+;ProcessingSoftware
+; the address is not for sure. exif spec only shows 0x000B.
+; used by ACD Systems Digital Imaging
+[0101-000B]
+Label=处理软件(ACDSee)
+
+;SubfileType
+;0x0 = Full-resolution image
+;0x1 = Reduced-resolution image
+;0x2 = Single page of multi-page image
+;0x3 = Single page of multi-page reduced-resolution image
+;0x4 = Transparency mask
+;0x5 = Transparency mask of reduced-resolution image
+;0x6 = Transparency mask of multi-page image
+;0x7 = Transparency mask of reduced-resolution multi-page image
+;0x8 = Depth map
+;0x9 = Depth map of reduced-resolution image
+;0x10 = Enhanced image data
+;0x10001 = Alternate reduced-resolution image
+;0xffffffff = invalid
+;Bit 0 = Reduced resolution
+;Bit 1 = Single page
+;Bit 2 = Transparency mask
+;Bit 3 = TIFF/IT final page
+;Bit 4 = TIFF-FX mixed raster content
+;0x0 =全分辨率图像
+;0x1 =分辨率降低的图像
+;0x2 =单页多页面分辨率的图像
+;0x3 =单页多页面分辨率降低的图像
+;0x4 =透明蒙版
+;0x5 =的透明蒙版分辨率降低的图像
+;0x6 =多页图像的透明蒙版
+;0x7 =分辨率降低的多页图像的透明蒙版
+;0x8 =深度图?景深图？深度映射？
+;0x9 =分辨率降低的图像的深度图
+;0x10 =增强图像数据
+;0x10001 =替代分辨率降低的图像
+;0xffffffff =无效的
+;位0 =分辨率降低的
+;位1 =单页
+;位2 =透明度掩码
+;位3 = TIFF / IT最终页面
+;位4 = TIFF-FX混合栅格内容
+[0101-00FE]
+;Label=
+Label=新子文件类型
+;ValueList=0#全分辨率图像, 1#降低分辩率图像, 2#多页图像中的单页, 3#多页图像中单面降低分辨率图像， 4#透明遮罩, 5#降低分辨率图像的遮罩, 6#多页图像的透明遮罩, 7#多页降低分辨率图像的透明遮罩, 8#深度图, 9#降低分辨第图像的深度图, 16#图像增强数据, 65537#降低分辨率图像的替代图, ffffffff#无效
+
+;OldSubfileType
+;1 = Full-resolution image
+;2 = Reduced-resolution image
+;3 = Single page of multi-page image
+[0101-00FF]
+Label=子文件类型
+ValueList=1#全分辨率图像数据, 2#低分辩率图像数据, 3#多页图像中的单页
+
+;ImageWidth
+[0101-0100]
+Label=图像宽度
+
+;ImageLength /ImageHeight
+[0101-0101]
+Label=图像高度
+
+;BitsPerSample
+[0101-0102]
+Label=图像采样位深
+
+;Compression
+[0101-0103]
+Label=压缩方案
+ValueList=1#未压缩, 2#CCITT 1D, 3#Group 3 Fax, 4#Group 4 Fax, 5#LZW, 6#JPEG压缩(缩略图), 7#JPEG, 8#ZLib, 32773#PackBits, 34712#JPEG 2000
+;ValueList=5#LZW, 6#JPEG (Thumbnail), 7#JPEG, 34712#JPEG 2000
+
+;PhotometricInterpretation
+;0 = WhiteIsZero
+;1 = BlackIsZero
+;2 = RGB
+;3 = RGB Palette
+;4 = Transparency Mask
+;5 = CMYK
+;6 = YCbCr
+;8 = CIELab
+;9 = ICCLab
+;10 = ITULab
+;32803 = Color Filter Array
+;32844 = Pixar LogL
+;32845 = Pixar LogLuv
+;32892 = Sequential Color Filter
+;34892 = Linear Raw
+;51177 = Depth Map/深度/景深，地图/映射？
+
+[0101-0106]
+Label=像素方案
+ValueList=0#白色为0, 1#黑色为0, 2#RGB, 3#RGB 调色板, 4#透明遮罩, 5#CMYK, 6#YCbCr, 8#CIE Lab, 9#ICCLab, ITULab, 32803#CFA(颜色滤光阵列), 32844#CIE Log2(L) (对数亮度), 32845#CIE Log2(L)(对数亮度和色度), 32892#Sequential Color Filter连续颜色滤镜, 34892#Linear Raw线性RAW, 51177#Depth Map景深映射
+
+;Thresholding
+;1 = No dithering or halftoning
+;2 = Ordered dither or halftone
+;3 = Randomized dither
+[0101-0107]
+Label=灰度阈值
+ValueList=1#无抖动/半调, 2#抖动/半调, 3#误差扩散
+
+;CellWidth
+[0101-0108]
+Label=元件宽度
+
+;CellLength
+[0101-0109]
+Label=元件高度
+
+;FillOrder
+;1 = Normal
+;2 = Reversed
+[0101-010A]
+Label=填充顺序
+ValueList=1#标准(小头), 2#反序(大头)
+
+;DocumentName
+[0101-010D]
+Label=文档名称
+
+;ImageDescription
+[0101-010E]
+Label=图像标题
+
+;Make
+[0101-010F]
+Label=相机厂商
+
+;Model
+[0101-0110]
+Label=相机型号
+
+;StripOffsets 
+[0101-0111]
+Label=每图像条偏移量
+
+;Orientation
+;1 = Horizontal (normal)
+;2 = Mirror horizontal
+;3 = Rotate 180
+;4 = Mirror vertical
+;5 = Mirror horizontal and rotate 270 CW
+;6 = Rotate 90 CW
+;7 = Mirror horizontal and rotate 90 CW
+;8 = Rotate 270 CW
+[0101-0112]
+Label=方向
+ValueList=1#上-左, 2#上-右, 3#下-右, 4#下-左, 5#左-上, 6#右-上, 7#右-下, 8#左-下
+
+;SamplesPerPixel
+[0101-0115]
+Label=像素采样率
+
+;RowsPerStrip
+[0101-0116]
+Label=每压缩条带的行数
+
+;StripByteCounts 
+[0101-0117]
+Label=每压缩条带的字节数
+
+;MinSampleValue
+[0101-0118]
+Label=最小采样值
+
+;MaxSampleValue
+[0101-0119]
+Label=最大采样值
+
+;XResolution
+[0101-011A]
+Label=水平解析度
+
+;YResolution
+[0101-011B]
+Label=垂直解析度
+
+;PlanarConfiguration
+;1 = Chunky
+;2 = Planar
+[0101-011C]
+Label=图像数据排列
+ValueList=1#Chunky, 2#Planar
+;ValueList=1#点顺序格式, 2#平面格式
+
+;PageName
+[0101-011D]
+Label=页名
+
+;XPosition
+[0101-011E]
+Label=水平位置
+
+;YPosition
+[0101-011F]
+Label=垂直位置
+
+;FreeOffsets
+[0101-0120]
+Label=空白偏移量
+
+;FreeByteCounts
+[0101-0121]
+Label=空白字节数
+
+;GrayResponseUnit
+;1 = 0.1
+;2 = 0.001
+;3 = 0.0001
+;4 = 1e-05
+;5 = 1e-06
+[0101-0122]
+Label=灰色响应单位
+ValueList=1#十, 2#百, 3#千, 4#万, 5#十万
+
+;GrayResponseCurve
+[0101-0123]
+Label=灰色响应曲线
+
+;T4Options
+;Bit 0 = 2-Dimensional encoding
+;Bit 1 = Uncompressed
+;Bit 2 = Fill bits added
+[0101-0124]
+Label=T4 选项
+ValueList=1#二维编码压缩, 2#未压缩, 4#加入填充位
+
+;T6Options
+[0101-0125]
+Label=T6 选项
+ValueList=2#未压缩
+
+;ResolutionUnit
+;1 = None
+;2 = inches
+;3 = cm
+[0101-0128]
+Label=解析度单位
+ValueList=1#无, 2#英寸, 3#厘米
+
+;PageNumber
+[0101-0129]
+Label=页数
+
+;ColorResponseUnit
+[0101-012C]
+Label=彩色响应单位
+
+;TransferFunction: 传送功能 or 转换函数?
+[0101-012D]
+Label=转换函数
+
+;Software
+[0101-0131]
+Label=使用软件
+
+;ModifyDate
+[0101-0132]
+Label=修改时间
+
+;Artist
+[0101-013B]
+Label=图像作者
+
+;HostComputer
+[0101-013C]
+Label=电脑主机
+
+;Predictor
+;1 = None
+;2 = Horizontal differencing
+;3 = Floating point
+;34892 = Horizontal difference X2
+;34893 = Horizontal difference X4
+;34894 = Floating point X2
+;34895 = Floating point X4
+[0101-013D]
+Label=差分预测
+ValueList=1#无, 2#水平差分, 3#浮点, 34892#水平差分X2, 34893#水平差分X4, 34894#浮点X2, 34895#浮点X4
+
+;WhitePoint
+[0101-013E]
+Label=白点色度
+
+;PrimaryChromaticities
+[0101-013F]
+Label=原色色度
+
+;ColorMap
+[0101-0140]
+Label=RGB色彩图
+
+
+; HalftoneHints 半调，中间调？
+[0101-0141]
+Label=半调提示
+
+;TileWidth
+[0101-0142]
+Label=贴图宽度
+
+;TileLength
+[0101-0143]
+Label=贴图长度
+
+;TileOffsets
+[0101-0144]
+Label=贴图偏移量
+
+;TileByteCounts
+[0101-0145]
+Label=贴图字节数
+
+;BadFaxLines
+[0101-0146]
+Label=传真坏针行
+
+;CleanFaxData
+;0 = Clean
+;1 = Regenerated
+;2 = Unclean
+[0101-0147]
+Label=纯净传真数据
+ValueList=0#纯净, 1#再生, 2#非纯净
+
+;ConsecutiveBadFaxLines
+[0101-0148]
+Label=传真连续坏针行
+
+;SubIFD 
+[0101-014A]
+Label=Exif子标签
+
+;InkSet
+;1 = CMYK
+;2 = Not CMYK
+[0101-014C]
+Label=墨水组合
+ValueList=1#CMYK, 2#非CMYK
+
+;InkNames
+[0101-014D]
+Label=墨盒名
+
+;NumberofInks
+[0101-014E]
+Label=墨盒数
+
+;DotRange
+[0101-0150]
+Label=点范围
+
+;TargetPrinter
+[0101-0151]
+Label=目标打印机
+
+;ExtraSamples
+;0 = Unspecified
+;1 = Associated Alpha
+;2 = Unassociated Alpha
+; ExtraSamples, 额外样本？增值采样？
+[0101-0152]
+Label=附加采样
+ValueList=0#未指定, 1#关联Appha, 2#未关联Alpha
+
+;SampleFormat
+;(SamplesPerPixel values)
+;[Values 0-3]
+;1 = Unsigned
+;2 = Signed
+;3 = Float
+;4 = Undefined
+;5 = Complex int
+;6 = Complex float
+;SampleFormat
+[0101-0153]
+Label=像素采样率
+ValueList=1#无符号整数, 2#符号整数, 3#浮点, 4#未定义, 5#整型实数, 6#浮点实数
+
+;SMinSampleValue
+[0101-0154]
+Label=S 采样最小值
+
+;SMaxSampleValue
+[0101-0155]
+Label=S 采样最大值
+
+;TransferRange
+[0101-0156]
+Label=传送范围
+
+;ClipPath
+[0101-0157]
+Label=剪裁路径
+
+;XClipPathUnits
+[0101-0158]
+Label=X 剪裁路径单元
+
+;YClipPathUnits
+[0101-0159]
+Label=Y 剪裁路径单元
+
+;Indexed
+;0 = Not indexed
+;1 = Indexed
+[0101-015A]
+Label=索引
+ValueList=0#无索引, 1#索引
+
+;JPEGTables
+[0101-015B]
+Label=JPEG表
+
+;OPIProxy
+;0 = Higher resolution image does not exist
+;1 = Higher resolution image exists
+[0101-015F]
+Label=OPI代理
+ValueList=0#无更高分辨率图像， 1#有更高分辨率图像
+
+; GlobalParametersIFD 
+[0101-0190]
+Label=IFD全局参数
+
+;ProfileType
+;0 = Unspecified
+;1 = Group 3 FAX
+[0101-0191]
+Label=传真配置类型
+ValueList=0#未指定, 1#Group 3 FAX
+
+;FaxProfile
+;0 = Unknown
+;1 = Minimal B&W lossless, S
+;2 = Extended B&W lossless, F
+;3 = Lossless JBIG B&W, J
+;4 = Lossy color and grayscale, C
+;5 = Lossless color and grayscale, L
+;6 = Mixed raster content, M
+;7 = Profile T
+;255 = Multi Profiles
+[0101-0192]
+Label=传真配置
+ValueList=0#未知, 1#最小黑白无损S, 2#扩展黑白无损F, 3#无损JBIG黑白J, 4#有损彩色灰度C, 5#无损彩色灰度L, 6#混合破坏内容M, 7#T 配置, 255#多种配置
+
+;CodingMethods
+;Bit 0 = Unspecified compression 
+;Bit 1 = Modified Huffman 
+;Bit 2 = Modified Read 
+;Bit 3 = Modified MR 
+;Bit 4 = JBIG 
+;Bit 5 = Baseline JPEG 
+;Bit 6 = JBIG color
+; Modified 是改进的，or 修改的？
+[0101-0193]
+Label=编码方法
+ValueList=1#未指定, 2#改进哈夫曼, 4#改进READ, 8#改进MR, 16#JBIG, 32#基线JPEG, 64#JBIG彩色
+
+;VersionYear
+[0101-0194]
+Label=版本年份
+
+;ModeNumber
+[0101-0195]
+Label=模式编号
+
+;Decode
+[0101-01B1]
+Label=解码
+
+;DefaultImageColor
+[0101-01B2]
+Label=默认图像色彩
+
+;T82Options
+[0101-01B3]
+Label=T82 选项
+
+;JPEGTables
+[0101-01B5]
+Label=JPEG表
+
+;JPEGProc
+;1 = Baseline 
+;14 = Lossless
+[0101-0200]
+Label=JPEG处理程序
+ValueList=1#基线顺序处理, 14#哈夫曼无损编码
+
+;ThumbnailOffset
+[0101-0201]
+Label=缩略图偏移
+
+;ThumbnailLength
+[0101-0202]
+Label=缩略图数据长度
+
+;JPEGRestartInterval
+[0101-0203]
+Label=JPEG编码复位间隔
+
+;JPEGLosslessPredictors
+[0101-0205]
+Label=JPEG无损预测器
+
+;JPEGPointTransforms
+[0101-0206]
+Label=JPEG 点变换
+
+;JPEGQTables, quantization table
+[0101-0207]
+Label=JPEG 量化表
+
+;JPEGDCTables, Huffman
+[0101-0208]
+Label=JPEG DC编码表
+
+;JPEGACTables, Huffman
+[0101-0209]
+Label=JPEG AC编码表
+
+;YCbCrCoefficients
+[0101-0211]
+Label=YCbCr系数
+
+;YCbCrSubSampling
+;'1 1'= YCbCr4：4：4（1 1）
+;'1 2'= YCbCr4：4：0（1 2）
+;'1 4'= YCbCr4：4：1（1 4）
+;'2 1'= YCbCr4：2 ：2（2 1）
+;'2 2'= YCbCr4：2：0（2 2）
+;'2 4'= YCbCr4：2：1（2 4）
+;'4 1'= YCbCr4：1：1（4 1）
+;'4 2'= YCbCr4：1 ：0（4 2）
+
+[0101-0212]
+Label=YCbCr子采样
+ValueList="1, 1#YCbCr 4:4:", "1, 2#YCbCr 4:4:0", "1, 4#YCbCr 4:4:1", "2, 1#YCbCr 4:2:2", "2, 2#YCbCr 4:2:0", "2, 4#YCbCr 4:2:1", "4, 1#YCbCr 4:1:1", "4, 2#YCbCr 4:1:0"
+
+;YCbCrPositioning
+;1 = Centered
+;2 = Co-sited
+[0101-0213]
+Label=YCbCr定位
+ValueList=1#居中, 2#并置
+
+;ReferenceBlackWhite
+[0101-0214]
+Label=参考黑白色
+
+;StripRowCounts
+[0101-022F]
+Label=条带行数
+
+;ApplicationNotes
+[0101-02BC]
+Label=软件备注(XMP)
+
+;USPTOMiscellaneous
+[0101-03E7]
+Label=USPTO附属信息
+
+
+;Rating
+[0101-4746]
+Label=评级
+
+;XP_DIP_XML
+[0101-4747]
+Label=XP_DIP_XML
+
+;StitchInfo（Microsoft Stich Tags）
+[0101-4748]
+Label=Stich信息
+
+;RatingPercent
+[0101-4749]
+Label=评级百分比
+
+;SonyRawFileType
+;0 = Sony Uncompressed 14-bit RAW 
+;1 = Sony Uncompressed 12-bit RAW 
+;2 = Sony Compressed RAW 
+;3 = Sony Lossless Compressed RAW 
+;4 = Sony Lossless Compressed RAW 2
+[0101-7000]
+Label=索尼Raw文件类型
+ValueList=0#非压缩14位, 1#非压缩12位, 2#压缩, 3#无损压缩, 4# 无损压缩2
+
+;SonyToneCurve
+[0101-7010]
+Label=索尼调色曲线
+
+;Sony ARW images
+;VignettingCorrection
+;256 = Off 
+;257 = Auto 
+;272 = Auto (ILCE-1) 
+;511 = No correction params available
+[0101-7031]
+Label=光晕校正
+ValueList=256#关, 257#自动, 272#自动(ILCE-1), 511#无校正参数
+
+;Sony ARW images
+;VignettingCorrParams
+[0101-7032]
+Label=光晕校正参数
+
+;Sony ARW images
+;ChromaticAberrationCorrection
+;0 = Off 
+;1 = Auto 
+;255 = No correction params available
+[0101-7034]
+Label=色差校正
+ValueList=0#关, 1#自动, 255#无校正参数
+
+;Sony ARW images
+;ChromaticAberrationCorrParams
+[0101-7035]
+Label=色差校正参数
+
+
+;Sony ARW images
+;DistortionCorrection
+;0 = Off 
+;1 = Auto 
+;17 = Auto fixed by lens 
+;255 = No correction params available
+[0101-7036]
+Label=变形校正
+ValueList=0#关, 1#自动, 17#镜头自动校正, 255#无校正参数
+
+;Sony ARW images
+;DistortionCorrParams
+[0101-7037]
+Label=变形校正参数
+
+;SonyCropTopLeft
+[0101-74C7]
+Label=SONY裁切左上角
+
+;SonyCropSize
+[0101-74C8]
+Label=SONY裁切尺寸
+
+;ImageID
+[0101-800D]
+Label=图像 ID
+
+;WangTag1,王牌？
+[0101-80A3]
+Label=王牌1
+
+WangAnnotation
+[0101-80A4]
+Label=王牌备注
+
+WangTag3
+[0101-80A5]
+Label=王牌3
+
+WangTag4
+[0101-80A6]
+Label=王牌4
+
+
+;ImageReferencePoints
+[0101-80B9]
+Label=图像参考点
+
+;RegionXformTackPoint
+[0101-80BA]
+Label=区域参考变换粘着点
+
+;WarpQuadrilateral
+[0101-80BB]
+Label=区域变换经四边形
+
+;AffineTransformMat
+[0101-80BC]
+Label=区域仿射变换
+
+;Matteing
+[0101-80E3]
+Label=遮罩
+
+;DataType
+[0101-80E4]
+Label=数据类型
+
+;ImageDepth
+[0101-80E5]
+Label=图像深度
+
+;TileDepth
+[0101-80E6]
+Label=平铺深度
+
+;ImageFullWidth
+[0101-8214]
+Label=图像全宽
+
+;ImageFullHeight
+[0101-8215]
+Label=图像全高
+
+;TextureFormat
+[0101-8216]
+Label=材质格式
+
+;WrapModes
+[0101-8217]
+Label=材质包裹模式
+
+;FovCot？
+[0101-8218]
+Label=FovCot覆盖帧宽高比
+
+;Matrix World To Screen？
+[0101-8219]
+Label=屏幕的矩阵世界
+
+;Matrix World To Camera？
+[0101-821A]
+Label=相机的矩阵世界
+
+;Model2, or Writer Serial Number?
+[0101-827D]
+Label=相机型号2
+
+;CFA-color filter array？CFA/Bayer Pattern拜耳彩色滤光阵列
+;Repeat pattern dim
+[0101-828D]
+Label=CFA 阵列重复暗淡
+
+;CFAPattern2
+[0101-828E]
+Label=CFA 阵列2
+
+;BatteryLevel
+[0101-828F]
+Label=电池电量
+
+;KodakIFD
+[0101-8290]
+Label=柯达IFD标签
+
+[0101-8298]
+Label=版权
+
+
+
+
+;XPTitle/tags 0x9c9b-0x9c9f are used by Windows Explorer; special characters in these values are converted to UTF-8 by default, or Windows Latin1 with the -L option. XPTitle is ignored by Windows Explorer if ImageDescription exists
+[0101-9C9B]
+Label=Windows标题
+
+;XPComment
+[0101-9C9C]
+Label=Windows备注
+
+;XPAuthor/(ignored by Windows Explorer if Artist exists)
+[0101-9C9D]
+Label=Windows作者
+
+;XPKeywords
+[0101-9C9E]
+Label=Windows关键词
+
+;XPSubject
+[0101-9C9F]
+Label=Windows主题
+
+; Camera IFD
+;===============0102===============
+
+[0102-829A]
+Label=曝光时间[s]
+
+[0102-829D]
+Label=光圈
+
+
+; 82a5-82ac used by Molecular Dynamics GEL files
+[0102-82A5]
+Label=MDFileTag
+
+[0102-82A6]
+Label=MDScalePixel
+
+[0102-82A7]
+Label=MDColorTable
+
+[0102-82A8]
+Label=MDLabName
+
+[0102-82A9]
+Label=MDSampleInfo
+
+[0102-82AA]
+Label=MDPrepDate
+
+[0102-82AB]
+Label=MDPrepTime
+
+[0102-82AC]
+Label=MDFileUnits
+
+
+
+[0102-830E]
+Label=像素比例
+
+[0102-8335]
+Label=Advent Scale
+
+[0102-8336]
+Label=Advent Revision
+
+[0102-835C]
+Label=UIC 1 Tag
+
+[0102-835D]
+Label=UIC 2 Tag
+
+[0102-835E]
+Label=UIC 3 Tag
+
+[0102-835F]
+Label=UIC 4 Tag
+
+
+[0102-83BB]
+Label=IPTC/NAA标签
+
+;IntergraphPacketData 鹰图？
+[0102-847E]
+Label=鹰图Packet Data
+
+;IntergraphFlagRegisters
+[0102-847F]
+Label=鹰图Flag Registers
+
+;IntergraphMatrix
+[0102-8480]
+Label=鹰图矩阵
+
+;INGRReserved
+[0102-8481]
+Label=INGR保留
+
+;ModelTiePoint
+[0102-8482]
+Label=模型联系点
+
+[0102-84E0]
+Label=Site
+
+;ColorSequence
+[0102-84E1]
+Label=彩色序列
+
+;IT8Header
+[0102-84E2]
+Label=IT8标题
+
+;RasterPadding
+;0 = Byte 
+;1 = Word 
+;2 = Long Word 
+;9 = Sector 扇区？
+;10 = Long Sector 长、双？
+[0102-84E3]
+Label=光栅边距
+ValueList=0#字节, 1#字(Word), 2#双字(Long Word), 9#扇区, 10#长扇区
+
+;BitsPerRunLength
+[0102-84E4]
+Label=Bits Per Run Length
+
+;BitsPerExtendedRunLength
+[0102-84E5]
+Label=Bits Per Extended Run Length
+
+;ColorTable
+[0102-84E6]
+Label=颜色表
+
+;ImageColorIndicator
+;0 = Unspecified Image Color
+;1 = Specified Image Color
+[0102-84E7]
+Label=图像颜色指标
+ValueList=0#未指定图像颜色, 1#已指定图像颜色
+
+;BackgroundColorIndicator
+;0 = Unspecified Image Color
+;1 = Specified Image Color
+[0102-84E8]
+Label=背景颜色指标
+ValueList=0#未指定图像颜色, 1#已指定图像颜色
+
+;ImageColorValue
+[0102-84E9]
+Label=图像颜色值
+
+;BackgroundColorValue
+[0102-84EA]
+Label=背景颜色值
+
+;PixelIntensityRange
+[0102-84EB]
+Label=像素强度范围
+
+;TransparencyIndicator
+[0102-84EC]
+Label=透明度指标
+
+;ColorCharacterization
+[0102-84ED]
+Label=颜色特征
+
+;HCUsage
+;0 = CT
+;1 = Line Art
+;2 = Trap
+[0102-84EE]
+Label=HC Usage
+ValueList=0#CT, 1#线条艺术, 2#陷阱
+
+;TrapIndicator
+[0102-84EF]
+Label=陷阱指标
+
+;CMYKEquivalent
+[0102-84F0]
+Label=CMYK等价
+
+;Reserved TIFF/IT 1
+[0102-84F1]
+Label=TIFF/IT 1保留
+
+;Reserved TIFF/IT 2
+[0102-84F2]
+Label=TIFF/IT 2保留
+
+;Reserved TIFF/IT 3
+[0102-84F3]
+Label=TIFF/IT 3保留
+
+;SEMInfo(某些扫描电子显微图像)
+[0102-8546]
+Label=扫描电子信息
+
+;AFCP_IPTC(IPTC)
+[0102-8568]
+Label=AFCP_IPTC
+
+;PixelMagicJBIGOptions
+[0102-85B8]
+Label=PixelMagicJBIG选项
+
+;JPLCartoIFD
+[0102-85D7]
+Label=JPLCartoIFD
+
+;ModelTransform
+[0102-85D8]
+Label=模型转换
+
+;WB_GRGBLevels(Leaf MOS图像)
+[0102-8602]
+Label=WB_GRGBLevels
+
+;LeafData
+[0102-8606]
+Label=LeafData
+
+;PhotoshopSettings(PS Tags)
+[0102-8649]
+Label=Photoshop设置
+
+;ExifOffset(Exif Tags)
+[0102-8769]
+Label=Exif偏移量
+
+
+;ICC Profile/Inter color profile
+[0102-8773]
+Label=ICC配置
+
+;TIFF_FXExtensions
+;Bit 0 = Resolution/Image Width
+;Bit 1 = N Layer Profile M
+;Bit 2 = Shared Data
+;Bit 3 = B&W JBIG2
+;Bit 4 = JBIG2 Profile M
+[0102-877F]
+Label=TIFF_FXExtensions
+ValueList=0#Resolution/Image Width, 2#N Layer Profile M, 4#Shared Data, 8#B&W JBIG2, 16#JBIG2 Profile M
+
+;MultiProfiles
+;Bit 0 = Profile S
+;Bit 1 = Profile F
+;Bit 2 = Profile J
+;Bit 3 = Profile C
+;Bit 4 = Profile L
+;Bit 5 = Profile M
+;Bit 6 = Profile T
+;Bit 7 = Resolution/Image Width
+;Bit 8 = N Layer Profile M
+;Bit 9 = Shared Data
+;Bit 10 = JBIG2 Profile M
+[0102-8780]
+Label=MultiProfiles
+ValueList=0#S, 2#F, 4#J, 8#C, 16#L, 32#M, 64#T, 128#Resolution/Image Width, 256#N Layer Profile M, 512#Shared Data, 1024#JBIG2 Profile M
+
+;SharedData
+[0102-8781]
+Label=共享数据
+
+;T88Options
+[0102-8782]
+Label=T88选项
+
+;GeoTiffDirectory
+[0102-87AF]
+Label=GeoTiff目录
+
+;GeoTiffDoubleParams
+[0102-87B0]
+Label=GeoTiff Double Params
+
+;GeoTiffAsciiParams
+[0102-87B1]
+Label=Geo Ascii Params
+
+;JBIGOptions
+[0102-87BE]
+Label=JBIG选项
+
+
+
+;ExposureProgram
+;0 = Not Defined
+;1 = Manual
+;2 = Program AE
+;3 = Aperture-priority AE
+;4 = Shutter speed priority AE
+;5 = Creative (Slow speed)
+;6 = Action (High speed)
+;7 = Portrait
+;8 = Landscape
+;9 = Bulb
+; 9 is used by Canon EOS 7D
+[0102-8822]
+Label=曝光程序
+ValueList=0#未定义, 1#手动, 2#标准程序, 3#光圈先决, 4#快门先决, 5#景深先决, 6#运动模式, 7#肖像模式, 8#风景模式, 9#灯泡
+
+;SpectralSensitivity
+[0102-8824]
+Label=光谱灵敏度
+
+; GPSInfo
+[0102-8825]
+Label=GPS信息偏移
+
+;ISOSpeedRatings(Exif2.2)/PhotographicSensitivity(2.3)
+[0102-8827]
+Label=ISO感光灵敏度
+
+;ElectricConvFactor/OECF
+[0102-8828]
+Label=光电转换系数
+
+;Interlace
+[0102-8829]
+Label=交错
+
+;TimeZoneOffset
+;(1 or 2 values: 1. The time zone offset of DateTimeOriginal from GMT in hours, 2. If present, the time zone offset of ModifyDate)
+[0102-882A]
+Label=时区偏移标准
+ValueList=1#GMT, 2#国际日期变更线
+
+;SelfTimerMode？
+[0102-882B]
+Label=相机定时模式
+
+;StandardOutputSensitivity
+[0102-8831]
+Label=标准输出ISO感光度
+
+;RecommendedExposureIndex
+[0102-8832]
+Label=推荐曝光指数
+
+;ISOSpeed
+[0102-8833]
+Label=ISO速度
+
+;ISOSpeedLatitudeyyy
+[0102-8834]
+Label=ISOSpeedLatitudeyyy
+
+;ISOSpeedLatitudezzz
+[0102-8835]
+Label=ISOSpeedLatitudezzz
+
+;FaxRecvParams
+[0102-885C]
+Label=传真接收参数
+
+;FaxSubAddress
+[0102-885D]
+Label=传真子地址
+
+;FaxRecvTime
+[0102-885E]
+Label=传真接收时间
+
+;FedexEDR
+[0102-8871]
+Label=FedEx EDR
+
+;LeafSubIFD
+[0102-888A]
+Label=LeafSubIFD
+
+
+;ExifVersion
+[0102-9000]
+Label=EXIF版本
+
+;DateTimeOriginal
+[0102-9003]
+Label=拍摄日期
+
+;DateTimeDigitized /CreateDate
+[0102-9004]
+Label=数字化日期
+
+;GooglePlusUploadCode
+[0102-9009]
+Label=GooglePlusUploadCode
+
+;OffsetTime (timezone for ModifyDate)
+[0102-9010]
+Label=修改日期时区
+
+;OffsetTimeOriginal (timezone for DateTimeOriginal)
+[0102-9011]
+Label=拍摄日期时区
+
+;OffsetTimeDigitized(timezone for CreateDate)
+[0102-9012]
+Label=数字化日期时区
+
+;ComponentsConfiguration
+[0102-9101]
+Label=色彩空间
+ValueList="01, 02, 03, 00#YCbcr", "04, 05, 06, 00#RGB"
+
+;CompressedBitsPerPixel
+[0102-9102]
+Label=图像压缩率
+
+;ShutterSpeedValue
+[0102-9201]
+Label=TV快门速度[s]
+
+;ApertureValue
+[0102-9202]
+Label=AV光圈值
+
+;BrightnessValue
+[0102-9203]
+Label=BV亮度值
+
+;ExposureCompensation/ExposureBiasValue
+[0102-9204]
+Label=曝光补偿
+
+;MaxApertureValue
+[0102-9205]
+Label=最大光圈[F]
+
+;SubjectDistance对象、主体？
+[0102-9206]
+Label=拍摄距离[M]
+
+;MeteringMode
+;0 = Unknown
+;1 = Average
+;2 = Center-weighted average
+;3 = Spot
+;4 = Multi-spot
+;5 = Multi-segment
+;6 = Partial
+;255 = Other
+[0102-9207]
+Label=测光模式
+ValueList=0#未知, 1#平均, 2#中央重点平均测光, 3#点测光, 4#分区, 5#评估, 6#局部, 255#其他, -1#其他
+
+;LightSource
+;0	= Unknown
+;1	= Daylight
+;2	= Fluorescent
+;3	= Tungsten (Incandescent)
+;4	= Flash
+;9	= Fine Weather
+;10	= Cloudy
+;11	= Shade
+;12	= Daylight Fluorescent
+;13	= Day White Fluorescent
+;14	= Cool White Fluorescent
+;15	= White Fluorescent
+;16	= Warm White Fluorescent
+;17	= Standard Light A
+;18	= Standard Light B
+;19	= Standard Light C
+;20	= D55
+;21	= D65
+;22	= D75
+;23	= D50
+;24	= ISO Studio Tungsten
+;255	= Other
+
+[0102-9208]
+Label=光源
+ValueList=0#未知, 1#日光, 2#荧光灯, 3#钨灯(白炽灯), 4#闪光灯, 9#阴天, 10#多云, 11#阴影, 12#日光灯(D 5700-7100K), 13#日白色荧光灯(N 4600-5400K), 14#冷色荧光灯(W 3900-4500K), 15#白色荧光灯(WW 3200-3700K), 17#标准灯光 A, 18#标准灯光 B, 19#标准灯光 C, 20#D55, 21#D65, 22#D75, 23#D50, 24#标准影室钨灯, 255#其他光源, -1#其他
+
+
+;Flash
+;0x0	= No Flash
+;0x1	= Fired
+;0x5	= Fired, Return not detected
+;0x7	= Fired, Return detected
+;0x8	= On, Did not fire
+;0x9	= On, Fired
+;0xd	= On, Return not detected
+;0xf	= On, Return detected
+;0x10	= Off, Did not fire
+;0x14	= Off, Did not fire, Return not detected
+;0x18	= Auto, Did not fire
+;0x19	= Auto, Fired
+;0x1d	= Auto, Fired, Return not detected
+;0x1f	= Auto, Fired, Return detected
+;0x20	= No flash function
+;0x30	= Off, No flash function
+;0x41	= Fired, Red-eye reduction
+;0x45	= Fired, Red-eye reduction, Return not detected
+;0x47	= Fired, Red-eye reduction, Return detected
+;0x49	= On, Red-eye reduction
+;0x4d	= On, Red-eye reduction, Return not detected
+;0x4f	= On, Red-eye reduction, Return detected
+;0x50	= Off, Red-eye reduction
+;0x58	= Auto, Did not fire, Red-eye reduction
+;0x59	= Auto, Fired, Red-eye reduction
+;0x5d	= Auto, Fired, Red-eye reduction, Return not detected
+;0x5f	= Auto, Fired, Red-eye reduction, Return detected
+[0102-9209]
+Label=闪光灯
+ValueList=0#关闭, 1#打开, 5#频闪光线未侦测到, 7#频闪光线已侦测到, 9#打开(强制), 13#打开(强制/不探测返回光线), 15#打开(强制/探测返回光线), 16#关闭(强制), 24#关闭(自动), 25#打开(自动), 29#打开(自动/不探测返回光线), 31#打开(自动/探测返回光线), 32#无闪光功能, 65#打开(防红眼), 69#打开(防红眼/不探测返回光线), 71#打开(防红眼/探测返回光线), 73#打开(强制/防红眼), 77#打开(强制/防红眼/不探测返回光线), 79#打开(强制/防红眼/探测返回光线), 89#打开(自动/防红眼), 93#打开(自动/防红眼/不探测返回光线), 95#打开(自动/防红眼/探测返回光线)
+
+;FocalLength
+[0102-920A]
+Label=焦距[mm]
+
+;FlashEnergy
+[0102-920B]
+Label=闪光灯能量
+
+;SpatialFrequencyResponse
+[0102-920C]
+Label=空间频率响应
+
+;Noise
+[0102-920D]
+Label=噪点
+
+;FocalPlaneXResolution
+[0102-920E]
+Label=焦平面水平解析度
+
+;FocalPlaneYResolution
+[0102-920F]
+Label=焦平面垂直解析度
+
+;FocalPlaneResolutionUnit
+;1 = None
+;2 = inches
+;3 = cm
+;4 = mm
+;5 = um
+[0102-9210]
+Label=焦平面解析度单位
+ValueList=1#未知, 2#英寸, 3#厘米, 4#毫米, 5#微米
+
+;ImageNumber
+[0102-9211]
+Label=图像编号
+
+;SecurityClassification
+;'C' = Confidential
+;'R' = Restricted受限，私密（不公开）？
+;'S' = Secret
+;'T' = Top Secret
+;'U' = Unclassified
+[0102-9212]
+Label=安全级别
+ValueList=C#机密, R#受限, S#秘密, T#绝密, U#无密
+
+;ImageHistory
+[0102-9213]
+Label=图像历史
+
+;SubjectArea
+[0102-9214]
+Label=拍摄主体区域
+
+;ExposureIndex
+[0102-9215]
+Label=曝光模式选择
+
+;TIFF/EP Standard ID
+[0102-9216]
+Label=TIFF/EP标准ID
+
+;Sensing Method
+;1 = Monochrome area
+;2 = One-chip color area
+;3 = Two-chip color area
+;4 = Three-chip color area
+;5 = Color sequential area
+;6 = Monochrome linear
+;7 = Trilinear三线性？
+;8 = Color sequential linear
+[0102-9217]
+Label=感光方式
+ValueList=1#黑白区域, 2#单片色域, 3#双色片色域, 4#三色区域, 5#三色顺序区域, 6#黑白线性, 7#三色线性, 8#三色顺序线性
+
+;CIP3DataFile
+[0102-923A]
+Label=CIP3 DataFile
+
+;CIP3Sheet
+[0102-923B]
+Label=CIP3 Sheet
+
+;CIP3Side
+[0102-923C]
+Label=CIP3 Side
+
+
+;MakerNote
+[0102-927C]
+Label=厂商注释
+
+;UserComment
+[0102-9286]
+Label=用户注释
+;CharacterCode="未定义 - 系统缺省", "ASCII - 西欧ITU-T T.50 IA5", "JIS - 日文JIS X208-1990", "GBK - 简体中文", "BIG5 - 繁体中文", "UNICODE - Unicode UCS2 标准", "UTF8 - Unicode UTF-8"
+
+;SubSecTime
+[0102-9290]
+Label=次秒(修改时间)
+
+;SubSecTimeOriginal
+[0102-9291]
+Label=次秒(拍摄时间)
+
+;SubSecTimeDigitized
+[0102-9292]
+Label=次秒(数字化时间)
+
+;MSDocumentText
+[0102-932F]
+Label=MSDocumentText
+
+;MSPropertySetStorage
+[0102-9330]
+Label=MSPropertySetStorage
+
+;MSDocumentTextPosition
+[0102-9331]
+Label=MSDocumentTextPosition
+
+;ImageSourceData(Photoshop DocumentData Tags)
+[0102-935C]
+Label=图像来源数据
+
+;Temperature /ambient temperature(C)
+[0102-9400]
+Label=环境温度(C)
+
+;Humidity/ambient relative humidity(%)
+[0102-9401]
+Label=环境湿度(%)
+
+;Pressure/air pressure in hPa or mbar
+[0102-9402]
+Label=环境气压
+
+;WaterDepth/depth under water in metres, negative for above water
+[0102-9403]
+Label=环境水深(M)
+
+;Acceleration/directionless camera acceleration in units of mGal, or 10-5 m/s2
+[0102-9404]
+Label=相机加速度
+
+;CameraElevationAngle
+[0102-9405]
+Label=相机仰角
+
+
+
+;-------------------------
+;FlashpixVersion
+[0102-A000]
+Label=Flashpix版本
+
+;ColorSpace
+;0x1 = sRGB
+;0x2 = Adobe RGB
+;0xfffd = Wide Gamut RGB
+;0xfffe = ICC Profile
+;0xffff = Uncalibrated
+;(the value of 0x2 is not standard EXIF. Instead, an Adobe RGB image is indicated by "Uncalibrated" with an InteropIndex of "R03". The values 0xfffd and 0xfffe are also non-standard, and are used by some Sony cameras)
+[0102-A001]
+Label=色彩空间
+ValueList=1#sRGB, 2#Adobe RGB, 65533#宽色域RGB, 65534#ICC配置, 65535#未校准
+
+;ExifImageWidth/PixelXDimension 
+[0102-A002]
+Label=水平像素宽度
+
+;ExifImageHeight/PixelYDimension 
+[0102-A003]
+Label=垂直像素宽度
+
+;RelatedSoundFile
+[0102-A004]
+Label=相关音频文件
+
+;Interoperability offset/;InteropOffset
+[0102-A005]
+Label=IOP互操作偏移
+
+;SamsungRawPointersOffset
+[0102-A010]
+Label=三星RAW偏移
+;SamsungRawPointersLength
+[0102-A011]
+Label=三星RAW长度
+;SamsungRawByteOrder
+[0102-A101]
+Label=三星RAW字节序
+;SamsungRawUnknown
+[0102-A102]
+Label=三星RAW未知
+
+
+;FlashEnergy
+[0102-A20B]
+Label=闪光灯能量
+
+;SpatialFrequencyResponse
+[0102-A20C]
+Label=空间频率响应
+
+;Noise
+[0102-A20D]
+Label=噪点
+
+;FocalPlaneXResolution
+[0102-A20E]
+Label=焦平面水平解析度
+
+;FocalPlaneYResolution
+[0102-A20F]
+Label=焦平面垂直解析度
+
+;FocalPlaneResolutionUnit
+;1 = None
+;2 = inches
+;3 = cm
+;4 = mm
+;5 = um
+;(values 1, 4 and 5 are not standard EXIF)
+[0102-A210]
+Label=焦平面分辨率单位
+ValueList=1#英寸, 2#英寸, 3#厘米, 4#毫米, 5#微米
+
+;ImageNumber
+[0102-A211]
+Label=图像编号
+;SecurityClassification
+[0102-A212]
+Label=安全级别
+;ImageHistory
+[0102-A213]
+Label=图像历史
+
+;SubjectLocation
+[0102-A214]
+Label=拍摄主体位置
+;ExposureIndex
+[0102-A215]
+Label=曝光模式选择
+
+;TIFF-EPStandardID
+[0102-A216]
+Label=TIFF-EP标准ID
+
+;SensingMethod
+;1 = Not defined
+;2 = One-chip color area
+;3 = Two-chip color area
+;4 = Three-chip color area
+;5 = Color sequential area
+;7 = Trilinear
+;8 = Color sequential linear
+[0102-A217]
+Label=感光方式
+ValueList=1#未知, 2#单片色域, 3#双色片色域, 4#三色片区域, 5#三色顺序区域, 7#三色线性, 8#三色顺序线性
+
+;FileSource
+;1 = Film Scanner
+;2 = Reflection Print Scanner
+;3 = Digital Camera
+;"\x03\x00\x00\x00" = Sigma Digital Camera 适马相机？
+[0102-A300]
+Label=文件来源
+ValueList=1#底片扫描仪, 2#反射式打印扫描仪, 3#DSC数码相机, "\x03\x00\x00\x00"#适马数码相机
+
+;SceneType取景/场景/成像？
+;1 = Directly photographed
+[0102-A301]
+Label=场景类型
+ValueList=00#未定义, 01#直接拍摄
+
+;CFAPattern
+[0102-A302]
+Label=CFA滤光阵列
+ValueList=00#R, 01#G, 02#B, 03#C, 04#M, 05#Y, 06#W
+
+;CustomRendered自定义 补偿/成像/渲染？
+;0 = Normal
+;1 = Custom
+;2 = HDR (no original saved)
+;3 = HDR (original saved)
+;4 = Original (for HDR)
+;6 = Panorama
+;7 = Portrait HDR
+;8 = Portrait
+;(only 0 and 1 are standard EXIF, but other values are used by Apple iOS devices)
+[0102-A401]
+Label=自定义补偿
+ValueList=0#标准, 1#自定义, 2#HDR(无原始文件), 3#HDR(含原始文件), 4#仅HDR原文件, 6#全景, 7#纵向HDR, 8#纵向
+
+;ExposureMode
+;0 = Auto
+;1 = Manual
+;2 = Auto bracket
+[0102-A402]
+Label=曝光模式
+ValueList=0#自动, 1#手动, 2#自动连拍
+
+;WhiteBalance
+;0 = Auto
+;1 = Manual
+[0102-A403]
+Label=白平衡
+ValueList=0#自动, 1#手动
+
+;DigitalZoomRatio
+[0102-A404]
+Label=数字变焦比
+
+;FocalLengthIn35mmFilm /FocalLengthIn35mmFormat
+[0102-A405]
+Label=35mm焦距
+
+;SceneCaptureType
+;(the value of 4 is non-standard, and used by some Samsung models)
+;0 = Standard
+;1 = Landscape横向
+;2 = Portrait纵向
+;3 = Night
+;4 = Other
+[0102-A406]
+Label=取景模式
+ValueList=0#标准, 1#风景, 2#肖像, 3#夜景,4#其他
+
+;GainControl
+;0 = None
+;1 = Low gain up
+;2 = High gain up
+;3 = Low gain down
+;4 = High gain down
+[0102-A407]
+Label=增益控制
+ValueList=0#无, 1#低增益增加, 2#高增益增加, 3#低增益减少, 4#高增益减少
+
+;Contrast
+;0 = Normal
+;1 = Low
+;2 = High
+[0102-A408]
+Label=对比度
+ValueList=0#标准, 1#弱, 2#强
+
+;Saturation
+;0 = Normal
+;1 = Low
+;2 = High
+[0102-A409]
+Label=饱和度
+ValueList=0#标准, 1#低, 2#高
+
+
+;Sharpness锐度、清晰度？
+;0 = Normal
+;1 = Soft
+;2 = Hard
+[0102-A40A]
+Label=锐度/清晰度
+ValueList=0#标准, 1#弱, 2#强
+
+;DeviceSettingDescription
+[0102-A40B]
+Label=设备设置说明
+
+;SubjectDistanceRange
+;0 = Unknown
+;1 = Macro
+;2 = Close
+;3 = Distant
+[0102-A40C]
+Label=拍摄范围
+ValueList=0#未知, 1#微距, 2#近景, 3#远景
+
+;ImageUniqueID
+[0102-A420]
+Label=唯一图像ID
+
+;CameraOwnerName /OwnerName
+[0102-A430]
+Label=相机机主
+;BodySerialNumber /SerialNumber
+[0102-A431]
+Label=相机序列号
+;LensInfo
+[0102-A432]
+Label=镜头信息
+;LensMake
+[0102-A433]
+Label=镜头厂商
+;LensModel
+[0102-A434]
+Label=镜头型号
+;LensSerialNumber
+[0102-A435]
+Label=镜头序列号
+
+;CompositeImage
+;0 = Unknown
+;1 = Not a Composite Image
+;2 = General Composite Image
+;3 = Composite Image Captured While Shooting 拍摄时拍摄的合成图像？实时合成图像？
+; 我的理解是类似HDR的用多张图像生成最终图像，合成、还是复合呢？
+[0102-A460]
+Label=合成图像
+ValueList=0#未知, 1#非合成图像, 2#普通合成图像, 3#实时合成图像
+
+;SourceImageNumberOfCompositeImage /CompositeImageCount
+;(2 values: 1. Number of source images, 2. Number of images used. Called SourceImageNumberOfCompositeImage by the EXIF spec.)
+[0102-A461]
+Label=合成图像源图编号
+
+;SourceExposureTimesOfCompositeImage/CompositeImageExposureTimes
+;(11 or more values: 1. Total exposure time period, 2. Total exposure of all source images, 3. Total exposure of all used images, 4. Max exposure time of source images, 5. Max exposure time of used images, 6. Min exposure time of source images, 7. Min exposure of used images, 8. Number of sequences, 9. Number of source images in sequence. 10-N. Exposure times of each source image. Called SourceExposureTimesOfCompositeImage by the EXIF spec.)
+[0102-A462]
+Label=合成图像源图曝光时间
+
+;GDALMetadata
+[0102-A480]
+Label=GDAL元数据
+
+;GDALNoData
+[0102-A481]
+Label=GDAL 无数据
+
+;Gamma
+[0102-A500]
+Label=Gamma
+
+
+;ExpandSoftware
+[0102-AFC0]
+Label=扩展软件
+;ExpandLens
+[0102-AFC1]
+Label=扩展镜头
+;ExpandFilm
+[0102-AFC2]
+Label=扩展底片
+;ExpandFilterLens
+[0102-AFC3]
+Label=扩展滤镜
+;ExpandScanner
+[0102-AFC4]
+Label=扩展扫描仪
+;ExpandFlashLamp
+[0102-AFC5]
+Label=扩展闪光灯
+;HasselbladRawImage
+[0102-B4C3]
+Label=HasselbladRawImage
+;PixelFormat
+[0102-BC01]
+Label=像素格式
+;Transformation
+[0102-BC02]
+Label=方向旋转
+;Uncompressed
+[0102-BC03]
+Label=已解压缩
+;ImageType
+[0102-BC04]
+Label=图像类型
+;ImageWidth
+[0102-BC80]
+Label=图像宽度
+;ImageHeight
+[0102-BC81]
+Label=图像高度
+;WidthResolution
+[0102-BC82]
+Label=水平解析度
+;HeightResolution
+[0102-BC83]
+Label=垂直解析度
+;ImageOffset
+[0102-BCC0]
+Label=图像偏移
+;ImageByteCount
+[0102-BCC1]
+Label=图像数据长度
+;AlphaOffset
+[0102-BCC2]
+Label=Alpha偏移
+;AlphaByteCount
+[0102-BCC3]
+Label=Alpha数据长度
+;ImageDataDiscard
+[0102-BCC4]
+Label=图像数据丢弃
+;AlphaDataDiscard
+[0102-BCC5]
+Label=Alpha数据丢弃
+;OceScanjobDesc
+[0102-C427]
+Label=Oce扫描任务说明
+;OceApplicationSelector
+[0102-C428]
+Label=Oce选择程序
+;OceIDNumber
+[0102-C429]
+Label=Oce ID
+;OceImageLogic
+[0102-C42A]
+Label=Oce 图像逻辑
+
+;Photoshop Annotations
+[0102-C44F]
+Label=Photoshop Annotations
+
+;PrintIM
+[0102-C4A5]
+Label=PrintIM Data
+
+;HasselbladExif
+[0102-C51B]
+Label=HasselbladExif
+
+
+;OriginalFileName
+[0102-C573]
+Label=原始文件名
+
+
+;USPTOOriginalContentType
+[0102-C580]
+Label=USPTO原始内容类型
+
+
+;CR2CFAPattern
+[0102-C5E0]
+Label=CR2 CFA排列
+
+
+;DNGVersion
+[0102-C612]
+Label=DNG版本
+
+
+;DNGBackwardVersion
+[0102-C613]
+Label=DNG向下版本
+
+
+;UniqueCameraModel
+[0102-C614]
+Label=统一相机型号
+
+
+;LocalizedCameraModel
+[0102-C615]
+Label=本地相机型号
+
+
+;CFAPlaneColor
+[0102-C616]
+Label=CFA焦平面颜色
+
+
+;CFALayout
+[0102-C617]
+Label=CFA布局
+
+
+;LinearizationTable ？
+[0102-C618]
+Label=线性化表
+
+;BlackLevelRepeatDim ？
+[0102-C619]
+Label=黑色阶重复暗淡
+
+;BlackLevel ？
+[0102-C61A]
+Label=黑色阶
+
+;BlackLevelDeltaH
+[0102-C61B]
+Label=黑色阶DeltaH
+
+;BlackLevelDeltaV
+[0102-C61C]
+Label=黑色阶DeltaV
+
+;WhiteLevel
+[0102-C61D]
+Label=白色阶
+
+;DefaultScale
+[0102-C61E]
+Label=默认尺寸范围
+
+;DefaultCropOrigin
+[0102-C61F]
+Label=默认裁切起点
+
+;DefaultCropSize
+[0102-C620]
+Label=默认裁切范围
+
+;ColorMatrix1
+[0102-C621]
+Label=颜色矩阵 1
+
+;ColorMatrix2
+[0102-C622]
+Label=颜色矩阵 2
+
+;CameraCalibration1
+[0102-C623]
+Label=相机校准 1
+
+;CameraCalibration2
+[0102-C624]
+Label=相机校准2
+
+;ReductionMatrix1
+[0102-C625]
+Label=Reduction矩阵1
+
+;ReductionMatrix2
+[0102-C626]
+Label=Reduction矩阵2
+
+;AnalogBalance
+[0102-C627]
+Label=模拟平衡
+
+;AsShotNeutral
+[0102-C628]
+Label=AsShotNeutral
+
+;AsShotWhiteXY
+[0102-C629]
+Label=AsShotWhiteXY
+
+;BaselineExposure
+[0102-C62A]
+Label=基准曝光
+
+;BaselineNoise
+[0102-C62B]
+Label=基准噪点
+
+;BaselineSharpness
+[0102-C62C]
+Label=基准锐度/清晰度
+
+;BayerGreenSplit
+[0102-C62D]
+Label=Bayer绿光分离
+
+;LinearResponseLimit
+[0102-C62E]
+Label=线性响应限度
+
+;CameraSerialNumber
+[0102-C62F]
+Label=相机序列号
+
+;DNGLensInfo
+[0102-C630]
+Label=DNG镜头信息
+
+;ChromaBlurRadius
+[0102-C631]
+Label=Chroma模糊半径
+
+;AntiAliasStrength
+[0102-C632]
+Label=反锯齿强度
+
+;ShadowScale
+[0102-C633]
+Label=阴影范围
+
+
+;DNGAdobeData
+[0102-C634]
+Label=DNG Adobe数据
+
+;MakerNoteSafety
+[0102-C635]
+Label=厂商注释安全级别
+
+
+;RawImageSegmentation
+[0102-C640]
+Label=Raw图像分块
+
+;CalibrationIlluminant1
+[0102-C65A]
+Label=校准样例 1
+
+;CalibrationIlluminant2
+[0102-C65B]
+Label=校准样例2
+
+;BestQualityScale
+[0102-C65C]
+Label=最佳质量范围
+
+;RawDataUniqueID
+[0102-C65D]
+Label=Raw数据唯一ID
+
+;AiasLayerMetadata
+[0102-C660]
+Label=AiasLayerMetadata
+
+;OriginalRawFileName
+[0102-C68B]
+Label=Raw原始文件名
+
+;OriginalRawFileData
+[0102-C68C]
+Label=Raw原始文件数据
+
+;ActiveArea
+[0102-C68D]
+Label=活动区域
+
+;MaskedAreas
+[0102-C68E]
+Label=遮罩区域
+
+;AsShotICCProfile
+[0102-C68F]
+Label=AsShot ICC配置
+
+;AsShotPreProfileMatrix
+[0102-C690]
+Label=AsShotPreProfileMatrix
+
+;CurrentICCProfile
+[0102-C691]
+Label=当前ICC配置
+
+;CurrentPreProfileMatrix
+[0102-C692]
+Label=CurrentPreProfileMatrix
+
+;ColorimetricReference
+[0102-C6BF]
+Label=ColorimetricReference
+
+;SRawType
+[0102-C6C5]
+Label=SRaw类型
+
+;PanasonicTitle
+[0102-C6D2]
+Label=标题[松下]
+
+;PanasonicTitle2
+[0102-C6D3]
+Label=标题 2[松下]
+
+;CameraCalibrationSig
+[0102-C6F3]
+Label=相机校准信号
+
+;ProfileCalibrationSig
+[0102-C6F4]
+Label=配置校准信号
+
+;ProfileIFD
+[0102-C6F5]
+Label=配置文件IFD
+
+;AsShotProfileName
+[0102-C6F6]
+Label=AsShotProfileName
+
+;NoiseReductionApplied
+[0102-C6F7]
+Label=NoiseReductionApplied
+
+;ProfileName
+[0102-C6F8]
+Label=配置文件名
+
+;ProfileHueSatMapDims
+[0102-C6F9]
+Label=ProfileHueSatMapDims
+
+;ProfileHueSatMapData1
+[0102-C6FA]
+Label=ProfileHueSatMapData1
+
+;ProfileHueSatMapData2
+[0102-C6FB]
+Label=ProfileHueSatMapData2
+
+;ProfileToneCurve
+[0102-C6FC]
+Label=配置调色曲线
+
+
+;ProfileEmbedPolicy
+[0102-C6FD]
+Label=配置内置策略
+
+
+
+
+;ProfileCopyright
+[0102-C6FE]
+Label=配置版权
+
+;ForwardMatrix1
+[0102-C714]
+Label=ForwardMatrix1
+
+;ForwardMatrix2
+[0102-C715]
+Label=ForwardMatrix2
+
+;PreviewApplicationName
+[0102-C716]
+Label=预览程序名称
+
+;PreviewApplicationVersion
+[0102-C717]
+Label=预览程序版本
+
+;PreviewSettingsName
+[0102-C718]
+Label=预览设置名称
+
+;PreviewSettingsDigest
+[0102-C719]
+Label=预览设置签名
+
+;PreviewColorSpace
+[0102-C71A]
+Label=预览色彩空间
+
+;PreviewDateTime
+[0102-C71B]
+Label=预览日期
+
+;RawImageDigest
+[0102-C71C]
+Label=Raw图像签名
+
+;OriginalRawFileDigest
+[0102-C71D]
+Label=原始Raw文件签名
+
+;SubTileBlockSize
+[0102-C71E]
+Label=SubTileBlockSize
+
+;RowInterleaveFactor
+[0102-C71F]
+Label=行交错因数
+
+;ProfileLookTableDims
+[0102-C725]
+Label=配置查询表Dims
+
+;ProfileLookTableData
+[0102-C726]
+Label=配置查询表数据ProfileLookTableData
+
+;OpcodeList1
+[0102-C740]
+Label=OpcodeList1
+
+;OpcodeList2
+[0102-C741]
+Label=OpcodeList2
+
+;OpcodeList3
+[0102-C74E]
+Label=OpcodeList3
+
+;NoiseProfile
+[0102-C761]
+Label=噪点配置
+
+;TimeCodes
+[0102-C763]
+Label=时间编码
+
+;FrameRate
+[0102-C764]
+Label=帧率
+
+;TStop
+[0102-C772]
+Label=TStop
+
+;ReelName
+[0102-C789]
+Label=ReelName
+
+;OriginalDefaultFinalSize
+[0102-C791]
+Label=原始默认最终尺寸
+
+;OriginalBestQualitySize
+[0102-C792]
+Label=原始默认量化尺寸
+
+;OriginalDefaultCropSize
+[0102-C793]
+Label=原始默认裁切尺寸
+
+;CameraLabel
+[0102-C7A1]
+Label=相机标签
+
+;ProfileHueSatMapEncoding
+[0102-C7A3]
+Label=ProfileHueSatMapEncoding
+
+;ProfileLookTableEncoding
+[0102-C7A4]
+Label=ProfileLookTableEncoding
+
+;BaselineExposureOffset
+[0102-C7A5]
+Label=BaselineExposureOffset
+
+;DefaultBlackRender
+[0102-C7A6]
+Label=DefaultBlackRender
+
+;NewRawImageDigest
+[0102-C7A7]
+Label=NewRawImageDigest
+
+;RawToPreviewGain
+[0102-C7A8]
+Label=RawToPreviewGain
+
+;CacheVersion
+[0102-C7AA]
+Label=缓存版本
+
+;DefaultUserCrop
+[0102-C7B5]
+Label=默认用户裁切
+
+;NikonNEFInfo
+[0102-C7D5]
+Label=尼康NEF信息
+
+;DepthFormat
+[0102-C7E9]
+Label=色深格式
+
+;DepthNear
+[0102-C7EA]
+Label=临近色深
+
+;DepthFar
+[0102-C7EB]
+Label=远离色深
+
+;DepthUnits
+[0102-C7EC]
+Label=色深单元
+
+;DepthMeasureType
+[0102-C7ED]
+Label=色深测量方法
+
+;EnhanceParams
+[0102-C7EE]
+Label=增强参数
+
+;Padding
+[0102-EA1C]
+Label=间隔
+
+;OffsetSchema
+[0102-EA1D]
+Label=偏移模式
+
+;OwnerName
+[0102-FDE8]
+Label=机主
+
+;SerialNumber
+[0102-FDE9]
+Label=序列号
+
+;Lens
+[0102-FDEA]
+Label=镜头
+
+;KDC_IFD
+[0102-FE00]
+Label=柯达KDC IFD
+
+;RawFile
+[0102-FE4C]
+Label=Raw文件
+
+;Converter
+[0102-FE4D]
+Label=转换程序
+
+;WhiteBalance
+[0102-FE4E]
+Label=白平衡
+
+;Exposure
+[0102-FE51]
+Label=曝光
+
+;Shadows
+[0102-FE52]
+Label=阴影
+
+;Brightness
+[0102-FE53]
+Label=亮度
+
+;Contrast
+[0102-FE54]
+Label=对比度
+
+;Saturation
+[0102-FE55]
+Label=饱和度
+
+;Sharpness
+[0102-FE56]
+Label=清晰度
+
+;Smoothness
+[0102-FE57]
+Label=平滑度
+
+;MoireFilter
+[0102-FE58]
+Label=Moire滤镜
+
+
+
+[0102-FFFF]
+Label=DCS Hue 转换
+
+; --------------------- GPS IFD ---------------------
+
+[0103-0000]
+Label=GPS版本
+
+[0103-0001]
+Label=GPS纬度参照点
+ValueList=N#北纬, S#南纬
+
+[0103-0002]
+Label=GPS纬度
+
+[0103-0003]
+Label=GPS经度参照点
+ValueList=E#东经, W#西经
+
+[0103-0004]
+Label=GPS经度
+
+[0103-0005]
+Label=GPS高度参照点
+ValueList=0#海拨, 1#海下
+
+[0103-0006]
+Label=GPS高度
+
+[0103-0007]
+Label=GPS时间戳
+
+[0103-0008]
+Label=GPS接收卫星数
+
+;'A' = Measurement Active 
+;'V' = Measurement Void
+[0103-0009]
+Label=GPS状态
+ValueList=2#主动测量, 3#被动测量
+
+[0103-000A]
+Label=GPS测量模式
+ValueList=2#2维测量法, 3#3维测量法
+
+[0103-000B]
+Label=GPS测量精度
+
+[0103-000C]
+Label=GPS移动参照单位
+ValueList=K#"公里/小时", M#"英里/小时", N#"海里/小时"
+
+
+[0103-000D]
+Label=GPS移动速度
+
+[0103-000E]
+Label=GPS移动方向参照点
+ValueList=T#北极方向, M#磁北方向
+
+[0103-000F]
+Label=GPS移动方向
+
+[0103-0010]
+Label=GPS图像方向参照点
+ValueList=T#北极方向, M#磁北方向
+
+[0103-0011]
+Label=GPS图像方向
+
+[0103-0012]
+Label=GPS地图资料
+
+[0103-0013]
+Label=GPS目标纬度参照点
+ValueList=N#北纬, S#南纬
+
+[0103-0014]
+Label=GPS目标纬度
+
+[0103-0015]
+Label=GPS目标经度参照点
+ValueList=E#东经, W#西经
+
+[0103-0016]
+Label=GPS目标地经度
+
+[0103-0017]
+Label=GPS目标方位参照点
+ValueList=T#极方向, M#磁方向
+
+[0103-0018]
+Label=GPS目标方位
+
+[0103-0019]
+Label=GPS目标距离参照单位
+ValueList=K#公里, M#英里, N#海里
+
+[0103-001A]
+Label=GPS目标距离
+
+; "GPS", "CELLID", "WLAN" or "MANUAL" by the EXIF spec
+[0103-001B]
+Label=GPS处理方法
+;ValueList="GPS"#GPS, "CELLID"#CELLID, "WLAN"#WLAN, "MANUAL"#MANUAL
+
+[0103-001C]
+Label=GPS区域信息
+
+[0103-001D]
+Label=GPS日期戳
+
+[0103-001E]
+Label=GPS误差修正
+ValueList=0#不修正, 1#修正
+
+[0103-001F]
+Label=GPSHPositioningError
+
+; --------------------- IOP IFD ---------------------
+
+[0104-0001]
+Label=可交换标准
+ValueList="R98"#"ExifR98- DCF basic file(sRGB)", "THM"#"THM - DCF thumbnail file", "R03"#"R03 - DCF option file(Adobe RGB)"
+ValueRef="R98"#"ExifR98- DCF basic file(sRGB)", "THM"#"THM - DCF thumbnail file", "R03"#"R03 - DCF option file(Adobe RGB)"
+
+[0104-0002]
+Label=可交换版本
+
+;RelatedImageFileFormat
+[0104-1000]
+Label=相关图像格式
+
+;RelatedImageWidth
+[0104-1001]
+Label=相关图像宽度
+
+;RelatedImageHeight
+[0104-1002]
+Label=相关图像高度
+
+;------------------- Thumbnail ----------------------------
+[0202-0001]
+Title=缩略图像
+
+; --------------------- 厂商注释 (Canon) ---------------------
+;===============A001-===============
+;CanonCameraSettings
+[A001-0001]
+Label=相机设置 1
+;CanonFocalLength
+[A001-0002]
+Label=Canon焦距标记
+;CanonFlashInfo
+[A001-0003]
+Label=Canon闪光标记
+;CanonShotInfo
+[A001-0004]
+Label=Canon拍摄信息标记
+
+;CanonPanorama
+[A001-0005]
+Label=Canon全景标记
+;CanonImageType
+[A001-0006]
+Label=图像类型
+;CanonFirmwareVersion
+[A001-0007]
+Label=Firmware版本
+;FileNumber
+[A001-0008]
+Label=文件编号
+;OwnerName
+[A001-0009]
+Label=机主
+
+;UnknownD30 Tags
+[A001-000A]
+Label= Canon D30未知标记
+
+;SerialNumber
+[A001-000C]
+Label=相机序列号
+;CanonCameraInfo1D &etc.
+[A001-000D]
+Label=Canon相机信息标记
+;CanonFileLength
+[A001-000E]
+Label=Canon文件长度
+;CustomFunctions1D &etc.
+[A001-000F]
+Label=自定义功能标记
+;CanonModelID
+[A001-0010]
+Label=型号ID
+;MovieInfo
+[A001-0011]
+Label=视频信息标记
+;CanonAFInfo
+[A001-0012]
+Label=Canon自动对焦标记
+;ThumbnailImageValidArea(all zeros for full frame)
+[A001-0013]
+Label=缩略图有效区
+;SerialNumberFormat
+;0x90000000 = Format 1
+;0xa0000000 = Format 2
+[A001-0015]
+Label=序列号格式
+ValueList=241591104#Format 1, 2684354560#Format 2
+
+;SuperMacro
+;0 = Off
+;1 = On (1)
+;2 = On (2)
+[A001-001A]
+Label=超微距
+ValueList=0#关, 1#开1, 2#开2
+;DateStampMode
+;(used only in postcard mode)
+;0 = Off
+;1 = Date
+;2 = Date & Time
+[A001-001C]
+Label=日期戳格式
+ValueList=0#无, 1#日期, 2#日期+时间
+;MyColors
+[A001-001D]
+Label=MyColors标记
+;FirmwareRevision
+[A001-001E]
+Label=Firmware修订版本
+
+;Categories
+;(2 values: 1. always 8, 2. Categories)
+;0x0 = (none)
+;Bit 0 = People
+;Bit 1 = Scenery
+;Bit 2 = Events
+;Bit 3 = User 1
+;Bit 4 = User 2
+;Bit 5 = User 3
+;Bit 6 = To Do
+[A001-0023]
+Label=分类
+ValueList=
+
+;FaceDetect1 TAGs
+[A001-0024]
+Label=面部识别标记1
+;FaceDetect2  TAGs
+[A001-0025]
+Label=面部识别标记2
+;CanonAFInfo2  TAGs
+[A001-0026]
+Label=自动对焦标记2
+;ContrastInfo  TAGs
+[A001-0027]
+Label=对比度信息标记
+;ImageUniqueID
+[A001-0028]
+Label=图像UID
+;WBInfo TAGs
+[A001-0029]
+Label=白平衡标记
+;FaceDetect3 TAGs
+[A001-002F]
+Label=面部识别标记3
+;TimeInfo Tags
+[A001-0035]
+Label=时间标记
+;BatteryType
+[A001-0038]
+Label=电池类型
+;AFInfo3
+[A001-003C]
+Label=自动对焦标记3
+;RawDataOffset
+[A001-0081]
+Label=Raw数据偏移
+;OriginalDecisionDataOffset
+[A001-0083]
+Label=OriginalDecision数据偏移
+;CustomFunctions1D
+[A001-0090]
+Label=1D自定义功能标记
+;PersonalFunctions
+[A001-0091]
+Label=个性化功能标记
+;PersonalFunctionValues
+[A001-0092]
+Label=个性化功能设定标记
+;CanonFileInfo
+[A001-0093]
+Label=Canon文件信息标记
+;AFPointsInFocus1D
+;(EOS 1D -- 5 rows: A1-7, B1-10, C1-11, D1-10, E1-7, center point is C6)
+[A001-0094]
+Label=1D自动对焦点
+;LensModel
+[A001-0095]
+Label=镜头型号
+;SerialInfo
+;InternalSerialNumber
+[A001-0096]
+Label=序列号
+;DustRemovalData
+[A001-0097]
+Label=除灰数据
+;CropInfo
+[A001-0098]
+Label=裁切信息标记
+;CustomFunctions2
+[A001-0099]
+Label=自定义功能标记2
+;AspectInfo
+[A001-009A]
+Label=图像比例标记
+;ProcessingInfo
+[A001-00A0]
+Label=图像处理标记
+;ToneCurveTable
+[A001-00A1]
+Label=调色曲线表
+;SharpnessTable
+[A001-00A2]
+Label=锐化表
+;SharpnessFreqTable
+[A001-00A3]
+Label=锐化频率表
+;WhiteBalanceTable
+[A001-00A4]
+Label=白平衡表
+;ColorBalance
+[A001-00A9]
+Label=色彩平衡
+;MeasuredColor
+[A001-00AA]
+Label=侦测色彩
+;ColorTemperature
+[A001-00AE]
+Label=色温
+;CanonFlags
+[A001-00B0]
+Label=Canon标识位
+
+[A001-00B1]
+Label=修改信息标记
+
+[A001-00B2]
+Label=调色曲线匹配
+
+[A001-00B3]
+Label=白平衡匹配
+
+[A001-00B4]
+Label=色彩空间
+
+[A001-00B6]
+Label=预览图像信息
+
+[A001-00D0]
+Label=VRD偏移
+
+[A001-00E0]
+Label=传感器信息
+
+[A001-4001]
+Label=色彩数据
+
+[A001-4002]
+Label=CRW参数?
+
+[A001-4003]
+Label=色彩信息
+
+[A001-4005]
+Label=风格?
+
+[A001-4008]
+Label=用户定义图像风格
+
+[A001-4009]
+Label=程序定义图像风格
+;CustomPictureStyleFileName
+[A001-4010]
+Label=自定图像风格文件名
+
+[A001-4013]
+Label=AF微调
+
+[A001-4015]
+Label=光晕修正
+
+[A001-4016]
+Label=光晕修正2
+
+[A001-4018]
+Label=光线调优
+
+[A001-4019]
+Label=镜头信息
+
+[A001-4020]
+Label=环境信息
+
+;MultiExp
+[A001-4021]
+Label=多重曝光
+;FilterInfo
+[A001-4024]
+Label=滤光镜信息
+
+[A001-4025]
+Label=HDR信息
+;Burst Mode Roll
+[A001-4028]
+Label=Raw 突发模式拍摄
+
+
+
+; --------------------- 厂商注释 (Nikon) ---------------------
+;===============A002-===============
+;MakerNoteVersion
+[A002-0001]
+Label=版本
+;ISO
+[A002-0002]
+Label=ISO感光度
+;ColorMode
+[A002-0003]
+Label=色彩模式
+;Quality
+[A002-0004]
+Label=图像品质
+;WhiteBalance
+[A002-0005]
+Label=白平衡
+;Sharpness
+[A002-0006]
+Label=清晰度
+;FocusMode
+[A002-0007]
+Label=对焦模式
+;FlashSetting
+[A002-0008]
+Label=闪光灯设置
+;FlashType
+[A002-0009]
+Label=闪光模式
+;WhiteBalanceFineTune
+[A002-000B]
+Label=白平衡偏移值
+;WB_RBLevels
+;White Balance Red, Blue Coefficients
+[A002-000C]
+Label=白平衡红蓝系数
+;ProgramShift
+[A002-000D]
+Label=程序转换
+;ExposureDifference
+[A002-000E]
+Label=曝光差异
+;ISOSelection
+[A002-000F]
+Label=ISO选择
+;PreviewIFD，ThumbOffset
+[A002-0011]
+Label=缩略图偏移
+;FlashExposureComp
+[A002-0012]
+Label=闪光曝光补偿
+ValueList=06#+1.0 EV, 04#+0.7 EV, 03#+0.5 EV, 02#+0.3 EV, 00 = 0.0 EV, FE#-0.3 EV, FD#-0.5 EV, FC#-0.7 EV, FA#-1.0 EV, F8#-1.3 EV, F7#= -1.5 EV, F6#-1.7 EV, F4#-2.0 EV, F2#-2.3 EV, F1#-2.5 EV, F0#-2.7 EV, EE#-3.0 EV
+;ISOSetting
+[A002-0013]
+Label=ISO感光设置
+;ColorBalanceA NRWData
+[A002-0014]
+Label=ColorBalanceANRWData
+;ImageBoundary, Photo corner coordinates
+[A002-0016]
+Label=图像边界
+
+;ExternalFlashExposureComp, Flash Bracket Compensation Applied
+[A002-0018]
+Label=外部闪光曝光补偿
+ValueList=06#+1.0 EV, 04#+0.7 EV, 03#+0.5 EV, 02#+0.3 EV, 00 = 0.0 EV, FE#-0.3 EV, FD#-0.5 EV, FC#-0.7 EV, FA#-1.0 EV, F8#-1.3 EV, F7#= -1.5 EV, F6#-1.7 EV, F4#-2.0 EV, F2#-2.3 EV, F1#-2.5 EV, F0#-2.7 EV, EE#-3.0 EV
+;FlashExposureBracketValue
+[A002-0018]
+Label=FlashExposureBracketValue
+;ExposureBracketValue, AE Bracket Compensation Applied
+[A002-0019]
+;Format=%sEV
+Label=AE快门补偿应用
+;ImageProcessing
+[A002-001A]
+Label=ImageProcessing
+
+;CropHiSpeed
+[A002-001B]
+Label=CropHiSpeed
+
+;ExposureTuning
+[A002-001C]
+Label=ExposureTuning
+;SerialNumber
+[A002-001D]
+Label=SerialNumber
+
+;ColorSpace
+[A002-001E]
+Label=色彩空间
+ValueList=1#sRGB, 2#Adobe RGB
+;Image Adjustment
+[A002-0080]
+Label=图像调节
+
+;Tone Compensation (Contrast)
+[A002-0081]
+Label=色调补偿 (对比度)
+
+;Auxiliary Lens (Adapter)
+[A002-0082]
+Label=扩展镜头
+
+;LensType
+;Bit 0 = MF
+;Bit 1 = D
+;Bit 2 = G
+;Bit 3 = VR
+;Bit 4 = 1
+;Bit 5 = FT-1
+;Bit 6 = E
+;Bit 7 = AF-P
+[A002-0083]
+Label=镜头类型
+ValueList=6#尼康D系列, 14#尼康G系列
+;Lens
+[A002-0084]
+Label=镜头最小/最大焦距及相应最大光圈值
+
+;Manual Focus Distance
+[A002-0085]
+Label=手动变焦距离
+;DigitalZoom
+[A002-0086]
+Label=数字变焦
+;FlashMode
+;0 = Did Not Fire
+;1 = Fired, Manual
+;3 = Not Ready
+;7 = Fired, External
+;8 = Fired, Commander Mode
+;9 = Fired, TTL Mode
+;18 = LED Light
+[A002-0087]
+Label=闪光灯
+ValueList=0#关,1#手动闪光, 3#未准备好, 7#外部闪光, 8#闪光指令模式, 9#闪光信号模式, 18#LED闪光
+;AFInfo
+[A002-0088]
+Label=自动对焦区域
+
+;ShootingMode
+;Bracketing & Shooting Mode
+;Bit 0 = Continuous
+;Bit 1 = Delay
+;Bit 2 = PC Control
+;Bit 3 = Self-timer
+;Bit 4 = Exposure Bracketing
+;Bit 5 = Auto ISO
+;Bit 6 = White-Balance Bracketing
+;Bit 7 = IR Control
+;Bit 8 = D-Lighting Bracketing
+[A002-0089]
+Label=拍摄模式
+
+;LensFStops
+[A002-008B]
+Label=LensFStops
+
+;ContrastCurve
+[A002-008C]
+Label=ContrastCurve
+
+;ColorHue
+[A002-008D]
+Label=色彩模式
+
+;SceneMode
+[A002-008F]
+Label=取景模式
+;LightSource
+[A002-0090]
+Label=光源
+;HueAdjustment
+[A002-0092]
+Label=色调调整
+
+;NEFCompression
+;1 = Lossy (type 1)
+;2 = Uncompressed
+;3 = Lossless
+;4 = Lossy (type 2)
+;5 = Striped packed 12 bits
+;6 = Uncompressed (reduced to 12 bit)
+;7 = Unpacked 12 bits
+;8 = Small
+;9 = Packed 12 bits
+;10 = Packed 14 bits
+[A002-0093]
+Label=NEF压缩
+;SaturationAdj
+[A002-0094]
+Label=饱和度
+ValueList=-3#黑白, -2#-2, -1#-1, 0#标准, 1#+1, 2#+2
+;NoiseReduction
+[A002-0095]
+Label=降噪
+
+;SerialNumber
+[A002-00A0]
+Label=SN序列号
+;ShutterCount
+[A002-00A7]
+Label=快门释放总数
+;ImageOptimization
+[A002-00A9]
+Label=图像优化
+;Saturation
+[A002-00AA]
+Label=饱和度
+;VariProgram
+[A002-00AB]
+Label=Digital Vari-Program
+
+; --------------------- 厂商注释 (Fujifilm) ---------------------
+;===============A003-===============
+;[A003-0000]
+;Label=Version
+;
+;[A003-1000]
+;Label=Quality
+;
+;[A003-1001]
+;Label=Sharpness
+;ValueList=1#Softest, 2#Soft, 3#Normal, 4#Hard, 5#Hardest
+;
+;[A003-1002]
+;Label=White Balance
+;ValueList=0#Auto, 256#Daylight, 512#Cloudy, 768#DaylightColour-fluorescence, 769#DaywhiteColour-fluorescence, 770#White-fluorescence, 1024#Incandenscense, 3840#Custom white balance
+;
+;[A003-1003]
+;Label=Colour Saturation
+;ValueList=0#Normal, 256#High, 512#Low
+;
+;[A003-1004]
+;Label=Tone (Contrast)
+;ValueList=0#Normal, 256#High, 512#Low
+;
+;[A003-1010]
+;Label=Flash Mode
+;ValueList=0#Auto, 1#On, 2#Off, 3#Red-eye Reduction
+;
+;[A003-1011]
+;Format=%sEV
+;Label=Flash Strength
+;
+;[A003-1020]
+;Label=Macro
+;ValueList=0#Off, 1#On
+;
+;[A003-1021]
+;Label=Focus Mode
+;ValueList=0#Auto Focus, 1#Manual Focus
+;
+;[A003-1030]
+;Label=Slow Sync
+;ValueList=0#Off, 1#On
+;
+;[A003-1031]
+;Label=Picture Mode
+;ValueList=0#Auto, 1#Portrait Scene, 2#Landscape Scene, 4#Sports Scene, 5#Night Scene, 6#Program AE, 256#Aperture priority AE, 512#Shutter priority AE, 768#Manual Exposure
+;
+;[A003-1100]
+;Label=Continuous taking or auto bracketing mode
+;ValueList=0#Off, 1#On
+;
+;[A003-1300]
+;Label=Blur Warning
+;ValueList=0#No Blur Warning, 1#Blur Warning
+;
+;[A003-1301]
+;Label=Focus warning
+;ValueList=0#Auto Focus Good, 1#Out of Focus
+;
+;[A003-1302]
+;Label=Auto Exposure Warning
+;ValueList="0#Auto Exposure Good", "1#Over exposure (>1/1000s,F11)"
+;
+[A003-0000]
+Label=版本
+
+[A003-1000]
+Label=画质
+
+[A003-1001]
+Label=清晰度
+ValueList=1#最弱, 2#弱, 3#标准, 4#强, 5#最强
+
+[A003-1002]
+Label=白平衡
+ValueList=0#自动, 256#阳光, 512#Cloudy, 768#日光色-荧光灯, 769#日白色-荧光灯, 770#纯白色-荧光灯, 1024#白炽灯, 3840#手动
+
+[A003-1003]
+Label=色彩饱和度
+ValueList=0#标准, 256#高, 512#低
+
+[A003-1004]
+Label=对比度
+ValueList=0#标准, 256#高, 512#低
+
+[A003-1010]
+Label=闪光灯模式
+ValueList=0#自动, 1#开, 2#关, 3#消除红眼
+
+[A003-1011]
+Format=%sEV
+Label=闪光灯强度
+
+[A003-1020]
+Label=微距
+ValueList=0#关, 1#开
+
+[A003-1021]
+Label=对焦模式
+ValueList=0#自动对焦, 1#手动对焦
+
+[A003-1030]
+Label=快速同步
+ValueList=0#关, 1#开
+
+[A003-1031]
+Label=图像模式
+ValueList=0#自动, 1#肖像, 2#风景, 4#运动, 5#夜景, 6#程序AE, 256#光圈优先AE, 512#快门优先AE, 768#手动曝光
+
+[A003-1100]
+Label=连拍模式
+ValueList=0#关, 1#开
+
+[A003-1300]
+Label=模糊警告
+ValueList=0#无, 1#警告
+
+[A003-1301]
+Label=对焦警告
+ValueList=0#自动对焦完成, 1#失焦
+
+[A003-1302]
+Label=自动曝光警告
+ValueList="0#自动曝光", "1#过度曝光 (>1/1000s,F11)"
+
+
+; --------------------- 厂商注释 (Olympus) ---------------------
+;===============A005-===============
+;MakerNoteVersion
+[A005-0000]
+Label=MakerNoteVersion
+[A005-0104]
+Label=BodyFirmwareVersion
+;SpecialMode
+;(3 numbers: 
+; 1. Shooting mode: 0=Normal, 2=Fast, 3=Panorama; 
+; 2. Sequence Number; 
+; 3. Panorama Direction: 1=Left-right, 2=Right-left, 3=Bottom-Top, 4=Top-Bottom)
+[A005-0200]
+Label=特殊模式
+ValueList=0#标准模式, 2#快速模式, 3#全景模式
+;Quality
+[A005-0201]
+Label=画质
+ValueList=1#Standard Quality, 2#High Quality, 3#Super High Quality
+
+;Macro
+[A005-0202]
+Label=微距
+ValueList=0#关, 1#微距, 2#超微距
+;BWMode
+[A005-0203]
+Label=黑白模式
+ValueList=0#关, 1#开,6#无
+;DigitalZoom
+[A005-0204]
+Label=数字变焦
+;ValueList=0#normal, 1#normal
+
+;CameraType
+[A005-0207]
+Label=Firmware Version
+
+[A005-0208]
+Label=Picture Info Data
+
+[A005-0209]
+Label=Camera ID
+
+[A005-0F00]
+Label=Data Dump
+
+; --------------------- 厂商注释 (Sony) ---------------------
+;===============A006===============
+[A006-0E00]
+Label=Print Image Matching Info
+
+
+; --------------------- 厂商注释 (Sigma) ---------------------
+;===============A009-===============
+;Camera Serial Number
+[A009-0002]
+Label=相机SN序列号
+;Drive Mode
+[A009-0003]
+Label=驱动模式
+;Resolution Mode
+[A009-0004]
+Label=解析模式
+;Autofocus Mode
+[A009-0005]
+Label=AF自动对焦
+;Focus Setting
+[A009-0006]
+Label=对焦设置
+;White Balance
+[A009-0007]
+Label=白平衡
+;Exposure Mode
+[A009-0008]
+Label=曝光模式
+ValueList=P#Program, A#Aperture Priority, S#Shutter Priority, M#Manual
+;Metering Mode
+[A009-0009]
+Label=测光模式
+ValueList=A#Average, C#Center, 8#segment
+;Lens Focal Length Range
+[A009-000A]
+Label=镜头焦距范围
+;Color Space
+[A009-000B]
+Label=色彩空间
+;Exposure
+[A009-000C]
+Label=曝光
+;Contrast
+[A009-000D]
+Label=对比度
+;Shadow
+[A009-000E]
+Label=阴影
+;Highlight
+[A009-000F]
+Label=高光
+
+[A009-0010]
+Label=Saturation
+
+[A009-0011]
+Label=Sharpness
+
+[A009-0012]
+Label=X3 Fill Light
+
+[A009-0014]
+Label=Color Adjustment
+
+[A009-0015]
+Label=Adjustment Mode
+
+[A009-0016]
+Label=Quality
+
+[A009-0017]
+Label=Firmware
+
+[A009-0018]
+Label=Software
+
+[A009-0019]
+Label=Auto Bracket
+
+; --------------------- 厂商注释 (Minolta) ---------------------
+;===============A00C-===============
+[A00C-0000]
+Label=Makernote Version
+
+[A00C-0001]
+Label=Camera Settingss (Old)
+
+[A00C-0003]
+Label=Camera Settingss (New)
+
+[A00C-0040]
+Label=Compressed Image Size
+
+[A00C-0081]
+Label=Thumbnail
+
+[A00C-0088]
+Label=Thumbnail Offset
+
+[A00C-0089]
+Label=Thumbnail Length
+
+[A00C-0101]
+Label=Color Mode
+ValueList=0#natural color, 1#black & white, 2#vivid color, 3#solarization, 4#AdobeRGB
+
+[A00C-0102]
+Label=Image Quality
+ValueList=0#raw, 1#super fine, 2#fine, 3#standard, 5#extrafine
+
+[A00C-0103]
+Label=Image Quality 1
+ValueList=0#raw, 1#super fine, 2#fine, 3#standard, 5#extrafine
+
+[A00C-0E00]
+Label=PIM IFD
+
+
+; --------------------- 厂商注释 (Canon) ---------------------
+[A010-0001]
+Label=相机设置 1
+;CanonFocalLength
+[A010-0002]
+Label=Canon焦距标记
+;CanonFlashInfo
+[A010-0003]
+Label=Canon闪光标记
+;CanonShotInfo
+[A010-0004]
+Label=Canon拍摄信息标记
+
+;CanonPanorama
+[A010-0005]
+Label=Canon全景标记
+;CanonImageType
+[A010-0006]
+Label=图像类型
+;CanonFirmwareVersion
+[A010-0007]
+Label=Firmware版本
+;FileNumber
+[A010-0008]
+Label=文件编号
+;OwnerName
+[A010-0009]
+Label=机主
+
+;UnknownD30 Tags
+[A010-000A]
+Label= Canon D30未知标记
+
+;SerialNumber
+[A010-000C]
+Label=相机序列号
+;CanonCameraInfo1D &etc.
+[A010-000D]
+Label=Canon相机信息标记
+;CanonFileLength
+[A010-000E]
+Label=Canon文件长度
+;CustomFunctions1D &etc.
+[A010-000F]
+Label=自定义功能标记
+;CanonModelID
+[A010-0010]
+Label=型号ID
+;MovieInfo
+[A010-0011]
+Label=视频信息标记
+;CanonAFInfo
+[A010-0012]
+Label=Canon自动对焦标记
+;ThumbnailImageValidArea(all zeros for full frame)
+[A010-0013]
+Label=缩略图有效区
+;SerialNumberFormat
+;0x90000000 = Format 1
+;0xa0000000 = Format 2
+[A010-0015]
+Label=序列号格式
+ValueList=0x90000000#Format 1, 0xA0000000#Format 2
+
+;SuperMacro
+;0 = Off
+;1 = On (1)
+;2 = On (2)
+[A010-001A]
+Label=超微距
+ValueList=0#关, 1#开1, 2#开2
+;DateStampMode
+;(used only in postcard mode)
+;0 = Off
+;1 = Date
+;2 = Date & Time
+[A010-001C]
+Label=日期戳格式
+ValueList=0#无, 1#日期, 2#日期+时间
+;MyColors
+[A010-001D]
+Label=MyColors标记
+;FirmwareRevision
+[A010-001E]
+Label=Firmware修订版本
+
+;Categories
+;(2 values: 1. always 8, 2. Categories)
+;0x0 = (none)
+;Bit 0 = People
+;Bit 1 = Scenery
+;Bit 2 = Events
+;Bit 3 = User 1
+;Bit 4 = User 2
+;Bit 5 = User 3
+;Bit 6 = To Do
+[A010-0023]
+Label=分类
+ValueList=
+
+;FaceDetect1 TAGs
+[A010-0024]
+Label=面部识别标记1
+;FaceDetect2  TAGs
+[A010-0025]
+Label=面部识别标记2
+;CanonAFInfo2  TAGs
+[A010-0026]
+Label=自动对焦标记2
+;ContrastInfo  TAGs
+[A010-0027]
+Label=对比度信息标记
+;ImageUniqueID
+[A010-0028]
+Label=图像UID
+;WBInfo TAGs
+[A010-0029]
+Label=白平衡标记
+;FaceDetect3 TAGs
+[A010-002F]
+Label=面部识别标记3
+;TimeInfo Tags
+[A010-0035]
+Label=时间标记
+;BatteryType
+[A010-0038]
+Label=电池类型
+;AFInfo3
+[A010-003C]
+Label=自动对焦标记3
+;RawDataOffset
+[A010-0081]
+Label=Raw数据偏移
+;OriginalDecisionDataOffset
+[A010-0083]
+Label=OriginalDecision数据偏移
+;CustomFunctions1D
+[A010-0090]
+Label=1D自定义功能标记
+;PersonalFunctions
+[A010-0091]
+Label=个性化功能标记
+;PersonalFunctionValues
+[A010-0092]
+Label=个性化功能设定标记
+;CanonFileInfo
+[A010-0093]
+Label=Canon文件信息标记
+;AFPointsInFocus1D
+;(EOS 1D -- 5 rows: A1-7, B1-10, C1-11, D1-10, E1-7, center point is C6)
+[A010-0094]
+Label=1D自动对焦点
+;LensModel
+[A010-0095]
+Label=镜头型号
+;SerialInfo
+;InternalSerialNumber
+[A010-0096]
+Label=序列号
+;DustRemovalData
+[A010-0097]
+Label=除灰数据
+;CropInfo
+[A010-0098]
+Label=裁切信息标记
+;CustomFunctions2
+[A010-0099]
+Label=自定义功能标记2
+;AspectInfo
+[A010-009A]
+Label=图像比例标记
+;ProcessingInfo
+[A010-00A0]
+Label=图像处理标记
+;ToneCurveTable
+[A010-00A1]
+Label=调色曲线表
+;SharpnessTable
+[A010-00A2]
+Label=锐化表
+;SharpnessFreqTable
+[A010-00A3]
+Label=锐化频率表
+;WhiteBalanceTable
+[A010-00A4]
+Label=白平衡表
+;ColorBalance
+[A010-00A9]
+Label=色彩平衡
+;MeasuredColor
+[A010-00AA]
+Label=侦测色彩
+;ColorTemperature
+[A010-00AE]
+Label=色温
+;CanonFlags
+[A010-00B0]
+Label=Canon标识位
+
+[A010-00B1]
+Label=修改信息标记
+
+[A010-00B2]
+Label=调色曲线匹配
+
+[A010-00B3]
+Label=白平衡匹配
+
+[A010-00B4]
+Label=色彩空间
+
+[A010-00B6]
+Label=预览图像信息
+
+[A010-00D0]
+Label=VRD偏移
+
+[A010-00E0]
+Label=传感器信息
+
+[A010-4001]
+Label=色彩数据
+
+[A010-4002]
+Label=CRW参数?
+
+[A010-4003]
+Label=色彩信息
+
+[A010-4005]
+Label=风格?
+
+[A010-4008]
+Label=用户定义图像风格
+
+[A010-4009]
+Label=程序定义图像风格
+;CustomPictureStyleFileName
+[A010-4010]
+Label=自定图像风格文件名
+
+[A010-4013]
+Label=AF微调
+
+[A010-4015]
+Label=光晕修正
+
+[A010-4016]
+Label=光晕修正2
+
+[A010-4018]
+Label=光线调优
+
+[A010-4019]
+Label=镜头信息
+
+[A010-4020]
+Label=环境信息
+
+;MultiExp
+[A010-4021]
+Label=多重曝光
+;FilterInfo
+[A010-4024]
+Label=滤光镜信息
+
+[A010-4025]
+Label=HDR信息
+;Burst Mode Roll
+[A010-4028]
+Label=Raw 突发模式拍摄
+
+
+
+
+; --------------------- 厂商注释 (Canon) - Camera Settings 1 ---------------------
+;MacroMode
+[A011-0001]
+Label=微距
+ValueList=1#微距, 2#标准
+
+;SelfTimer
+[A011-0002]
+Label=相机定时器
+ValueList=0#关
+;;Compression setting
+;[A011-0003]
+;Label=压缩设置
+;ValueList=2#正常, 3#Fine, 5#Super fine
+
+;Quality
+;-1 = n/a
+;1 = Economy
+;2 = Normal
+;3 = Fine
+;4 = RAW
+;5 = Superfine
+;7 = CRAW
+;130 = Normal Movie
+;131 = Movie (2)
+[A011-0003]
+Label=画质
+ValueList=1#经济, 2#标准, 3#高画质, 4#RAW, 5#超高画质, 7#CRAW, 130#标准视频, 131#视频2, -1#无效
+;CanonFlashMode
+;ValueList=0#Not fired, 1#Auto, 2#On, 3#Red eyes reduction, 4#Slow synchro, 5#Auto + red-eye reduction, 6#On + red-eye reduction
+;-1 = n/a
+;0 = Off
+;1 = Auto
+;2 = On
+;3 = Red-eye reduction
+;4 = Slow-sync
+;5 = Red-eye reduction (Auto)
+;6 = Red-eye reduction (On)
+;16 = External flash
+[A011-0004]
+Label=闪光灯模式
+ValueList=0#关闭, 1#自动, 2#强制闪光, 3#消除红眼, 4#Slow sync, 5#自动闪光 + 消除红眼, 6#强制闪光 + 消除红眼, -1#无效
+
+;Label=Drive mode
+;ValueList=0#Single or timer, 1#Continuous
+;ContinuousDrive
+;0 = Single
+;1 = Continuous
+;2 = Movie
+;3 = Continuous, Speed Priority
+;4 = Continuous, Low
+;5 = Continuous, High
+;6 = Silent Single
+;9 = Single, Silent
+;10 = Continuous, Silent
+[A011-0005]
+Label=连拍模式
+ValueList=0#单张/定时, 1#连续, 2#电影视频, 3#速度优先连拍, 4#低速连拍, 5#高速连拍, 6#静默单张, 9#单张(静默), A#连拍(静默)
+
+;Label=Focus Mode
+;ValueList=0#One-Shot, 1#AI Servo, 2#AI Focus, 3#MF, 4#Single, 5#Continuous, 6#MF
+;0 = One-shot AF
+;1 = AI Servo AF
+;2 = AI Focus AF
+;3 = Manual Focus (3)
+;4 = Single
+;5 = Continuous
+;6 = Manual Focus (6)
+;16 = Pan Focus
+;256 = AF + MF
+;257 = Live View
+;512 = Movie Snap Focus
+;519 = Movie Servo AF
+[A011-0007]
+Label=对焦模式
+ValueList=0#单次单一对焦, 1#AI持续对焦, 2#AI对焦, 3#手动3, 4#单次, 5#连续, 6#手动6,10#追拍对焦, 100#AF+MF, 101#实时查看, 200#视频抓焦 , 207#视频伺服AF,
+
+
+;RecordMode
+;1 = JPEG
+;2 = CRW+THM
+;3 = AVI+THM
+;4 = TIF
+;5 = TIF+JPEG	
+;6 = CR2
+;7 = CR2+JPEG
+;9 = MOV
+;10 = MP4
+;11 = CRM
+;12 = CR3
+;13 = CR3+JPEG
+;14 = HIF
+;15 = CR3+HIF
+[A011-0009]
+Label=记录格式
+ValueList=1#JPEG,2#CRW+THM,3#AVI+THM,4#TIF,5#TIF+JPEG,6#CR2,7#CR2+JPEG,9#MOV,10#MP4,11#CRM,12#CR3,13#CR3+JPEG,14#HIF,15#CR3+HIF
+;CanonImageSize
+;-1 = n/a
+;0 = Large
+;1 = Medium
+;2 = Small
+;5 = Medium 1
+;6 = Medium 2
+;7 = Medium 3
+;8 = Postcard
+;9 = Widescreen
+;10 = Medium Widescreen
+;14 = Small 1
+;15 = Small 2
+;16 = Small 3
+;128 = 640x480 Movie
+;129 = Medium Movie
+;130 = Small Movie
+;137 = 1280x720 Movie
+;142 = 1920x1080 Movie
+;143 = 4096x2160 Movie
+[A011-000A]
+Label=图像尺寸
+ValueList=0#大, 1#中, 2#小, 5#中1, 6#中2, 7#中3, 8#明信片, 9#宽屏, 10#中等宽屏, 14#小1, 15#小2, 16#小3, 128#640x480视频, 129#中等视频, 130#小视频, 137#1280x720视频, 142#1920x1080视频, 143#4096x2160视频
+;Label=Image size
+;ValueList=0#Large, 1#Medium, 2#Small
+
+;Label=Easy shooting
+;ValueList=0#Full Auto, 1#Manual, 2#Landscape, 3#Fast Shutter, 4#Slow Shutter, 5#Night, 6#B&W, 7#Sepia, 8#Portrait, 9#Sports, 10#Macro / Close-Up, 11#Pan Focus
+;EasyMode
+;0 = Full auto
+;1 = Manual
+;2 = Landscape
+;3 = Fast shutter
+;4 = Slow shutter
+;5 = Night
+;6 = Gray Scale
+;7 = Sepia
+;8 = Portrait
+;9 = Sports
+;10 = Macro
+;11 = Black & White
+;12 = Pan focus
+;13 = Vivid
+;14 = Neutral
+;15 = Flash Off
+;16 = Long Shutter
+;17 = Super Macro
+;18 = Foliage
+;19 = Indoor
+;20 = Fireworks
+;21 = Beach
+;22 = Underwater
+;23 = Snow
+;24 = Kids & Pets
+;25 = Night Snapshot
+;26 = Digital Macro
+;27 = My Colors
+;28 = Movie Snap
+;29 = Super Macro 2
+;30 = Color Accent
+;31 = Color Swap
+;32 = Aquarium
+;33 = ISO 3200
+;34 = ISO 6400
+;35 = Creative Light Effect
+;36 = Easy
+;37 = Quick Shot
+;38 = Creative Auto
+;39 = Zoom Blur
+;40 = Low Light
+;41 = Nostalgic
+;42 = Super Vivid
+;43 = Poster Effect
+;44 = Face Self-timer
+;45 = Smile
+;46 = Wink Self-timer
+;47 = Fisheye Effect
+;48 = Miniature Effect
+;49 = High-speed Burst
+;50 = Best Image Selection
+;51 = High Dynamic Range
+;52 = Handheld Night Scene
+;53 = Movie Digest
+;54 = Live View Control
+;55 = Discreet
+;56 = Blur Reduction
+;57 = Monochrome
+;58 = Toy Camera Effect
+;59 = Scene Intelligent Auto
+;60 = High-speed Burst HQ
+;61 = Smooth Skin
+;62 = Soft Focus
+;68 = Food
+;84 = HDR Art Standard
+;85 = HDR Art Vivid
+;93 = HDR Art Bold
+;257 = Spotlight
+;258 = Night 2
+;259 = Night+
+;260 = Super Night
+;261 = Sunset
+;263 = Night Scene
+;264 = Surface
+;265 = Low Light 2
+
+[A011-000B]
+Label=简易模式
+ValueList=0#全自动, 1#手动, 2#风景, 3#快速快门, 4#慢速快门, 5#夜景, 6#灰度, 7#旧式照片, 8#肖像, 9#运动, 10#微距, 11#黑白, 12#泛焦, 13#鲜艳, 14#中性, 15#无闪光, 16#长快门, 17#超微距, 18#树叶, 19#室内, 20#焰火, 21#海滩, 22#水下, 23#雪景, 24#儿童宠物, 25#夜间快照, 26#数字微距, 27#定制色彩, 28#电影快照,29#超微距2, 30#色彩强化, 31#色彩交换, 32#水族馆, 33#ISO 3200, 34#ISO 6400, 35#创意光效, 36#简易, 37#快拍, 38#自动创意,39#缩放模糊, 40#低光, 41#怀旧, 42#超鲜艳, 43#海报效果, 44#定时自拍人像, 45#笑容, 46#定时自拍眨眼, 47#鱼眼, 48#微缩效果, 49#快速连拍, 50#选择最佳图像, 51#HDR, 52#手持夜景, 53#短片摘要, 54#实时取景, 55#谨慎, 56#模糊降减, 57#单色, 58#
+玩具相机, 59#智能取景, 60#高速连拍HQ, 61#光滑肌肤, 62#柔焦效果, 68#食物, 84#HDR标准艺术照, 85#HDR鲜艳艺术照, 93#HDR强力艺术照, 257#聚光灯, 258#夜景2, 259#夜景+，260#超级夜景, 261#夕阳, 263#夜间取景, 264#表面, 265#低光2
+
+;DigitalZoom
+;0 = None
+;1 = 2x
+;2 = 4x
+;3 = Other
+[A011-000B]
+Label=数字变焦
+ValueList=0#无, 1#2倍, 2#4倍, 3#其他
+
+;Label=Contrast
+;ValueList=-1#Low, 0#Normal, 1#High
+[A011-000D]
+Label=对比度
+ValueList=-1#弱, 0#标准, 1#强
+
+;Label=Saturation
+;ValueList=-1#Low, 0#Normal, 1#High
+[A011-000E]
+Label=饱和度
+ValueList=-1#低, 0#标准, 1#高
+
+;Label=Sharpness
+;ValueList=-1#Low, 0#Normal, 1#High
+[A011-000F]
+Label=清晰度
+ValueList=-1#弱, 0#标准, 1#强
+
+;Label=ISO value
+;ValueList=15#Auto, 16#50, 17#100, 18#200, 19#400
+[A011-0010]
+Label=ISO感光值
+;ValueList=15#自动, 16#50, 17#100, 18#200, 19#400
+
+;Label=Metering mode
+;ValueList=3#Evaluative, 4#Partial, 5#Center-weighted
+;0 = Default
+;1 = Spot
+;2 = Average
+;3 = Evaluative
+;4 = Partial
+;5 = Center-weighted average
+[A011-0011]
+Label=测光模式
+ValueList=0#默认, 1#点测光, 2#平均测光, 3#评估测光, 4#局部测光, 5#中心权重平均测光
+
+;Label=Focus type
+;ValueList=0#Manual, 1#Auto, 3#Close-Up (Macro Mode), 7#Infinity Mode, 8#Locked (Pan Mode)
+;FocusRange
+;0 = Manual
+;1 = Auto
+;2 = Not Known
+;3 = Macro
+;4 = Very Close
+;5 = Close
+;6 = Middle Range
+;7 = Far Range
+;8 = Pan Focus
+;9 = Super Macro
+;10 = Infinity
+[A011-0012]
+Label=对焦范围
+ValueList=0#手动, 1#自动, 3#微距, 4#极近距, 5#近距, 6#中距 7#远距, 8#泛焦, 9#超微距, 10#无限远
+
+;Label=AF point
+;ValueList=12288#None (MF), 12289#Auto-selected, 12290#Right, 12291#Center, 12292#Left
+;0x2005 = Manual AF point selection
+;0x3000 = None (MF)
+;0x3001 = Auto AF point selection
+;0x3002 = Right
+;0x3003 = Center
+;0x3004 = Left
+;0x4001 = Auto AF point selection
+;0x4006 = Face Detect
+[A011-0013]
+Label=AF焦点
+ValueList=12288#无 (MF), 12289#自动选择, 12290#右, 12291#中心, 12292#左, 8197#手选AF焦点, 16385#自动选择, 16390#面部识别
+
+
+;Label=Exposure mode
+;ValueList=0#Easy shooting, 1#Program, 2#Tv-priority, 3#Av-priority, 4#Manual, 5#A-DEP
+;0 = Easy
+;1 = Program AE
+;2 = Shutter speed priority AE
+;3 = Aperture-priority AE
+;4 = Manual
+;5 = Depth-of-field AE
+;6 = M-Dep
+;7 = Bulb
+;8 = Flexible-priority AE
+[A011-0014]
+Label=AE自动曝光模式
+ValueList=0#简易, 1#程序曝光, 2#TV快门优先, 3#AV光圈优先, 4#手动, 5#自动景深A-DEP, 6#手动景深M-DEP, 7#B门长曝, 8#组合曝光 
+
+;LensType
+[A011-0016]
+Label=镜头类型
+
+;MaxFocalLength
+;Label=Long focal
+[A011-0017]
+Label=最大焦距
+;MinFocalLength
+;Label=Short focal
+[A011-0018]
+Label=最小焦距
+
+;FocalUnits
+[A011-0019]
+Label=焦距单位
+
+;MaxAperture
+[A011-001A]
+Label=最大光圈
+;MinAperture
+[A011-001B]
+Label=最小光圈
+;FlashActivity
+[A011-001C]
+Label=闪光灯活动
+
+;FlashBits
+;0x0 = (none)
+;Bit 0 = Manual
+;Bit 1 = TTL
+;Bit 2 = A-TTL
+;Bit 3 = E-TTL
+;Bit 4 = FP sync enabled
+;Bit 7 = 2nd-curtain sync used
+;Bit 11 = FP sync used
+;Bit 13 = Built-in
+;Bit 14 = External
+[A011-001D]
+Label=闪光信号位
+
+;FocusContinuous
+;0 = Single
+;1 = Continuous
+;8 = Manual
+[A011-0020]
+Label=连续对焦
+ValueList=0#单次对焦, 1#连续对焦, 8#手动对焦
+
+;AESetting
+;0 = Normal AE
+;1 = Exposure Compensation
+;2 = AE Lock
+;3 = AE Lock + Exposure Comp.
+;4 = No AE
+[A011-0021]
+Label=AE自动曝光设置
+ValueList=0#标准AE, 1#曝光补偿, 2#AE锁定, 3#AE锁定+补偿, 4#无AE
+
+;ImageStabilization
+;0 = Off
+;1 = On
+;2 = Shoot Only
+;3 = Panning
+;4 = Dynamic
+;256 = Off (2)
+;257 = On (2)
+;258 = Shoot Only (2)
+;259 = Panning (2)
+;260 = Dynamic (2)
+[A011-0022]
+Label=稳定防抖
+ValueList=0#关, 1#开, 2#仅快门时, 3#一直, 4#动态, 256#关, 257#开, 258#仅快门, 259#一直, 260#动态
+
+;DisplayAperture
+[A011-0023]
+Label=显示光圈
+
+;ZoomSourceWidth
+[A011-0024]
+Label=缩放原宽
+;ZoomTargetWidth
+[A011-0025]
+Label=缩放后宽
+
+;SpotMeteringMode
+;0 = Center
+;1 = AF Point
+[A011-0027]
+Label=点测光模式
+ValueList=0#中心点, 1#AF焦点
+
+;PhotoEffect
+;0 = Off
+;1 = Vivid
+;2 = Neutral
+;3 = Smooth
+;4 = Sepia
+;5 = B&W
+;6 = Custom
+;100 = My Color Data
+[A011-0028]
+Label=成像效果
+ValueList=0#关, 1#鲜艳, 2#中性, 3#平滑, 4#怀旧, 5#黑白, 6#自定义, 100#My Color数据
+;ManualFlashOutput
+;0x0 = n/a
+;0x500 = Full
+;0x502 = Medium
+;0x504 = Low
+;0x7fff = n/a
+[A011-0029]
+Label=手动闪光输出
+Value=0#N/A, 1280#高, 1282#中, 1284#低, 32767#N/A
+
+;ColorTone
+;0 = Normal
+[A011-002A]
+Label=色调
+ValueList=0#正常
+
+;SRAWQuality
+;0 = n/a
+;1 = sRAW1 (mRAW)
+;2 = sRAW2 (sRAW)
+[A011-002E]
+Label=SRAW画质
+ValueList=0#N/A, 1#sRAW1 (mRAW), 2#sRAW2 (sRAW)
+
+
+; --------------------- 厂商注释 (Canon) - Camera Settings 2 ---------------------
+;Canon ShotInfo Tags
+
+;AutoISO
+;Actual ISO used =BaseISO * AutoISO / 100
+[A012-0001]
+Label=自动ISO值
+;BaseISO
+[A012-0002]
+Label=基准ISO值
+;MeasuredEV
+[A012-0003]
+Label=EV曝光测量值
+;TargetAperture
+[A012-0004]
+Label=目标光圈
+;TargetExposureTime
+[A012-0005]
+Label=目标曝光时间
+;ExposureCompensation
+[A012-0006]
+Label=曝光补偿
+
+;Label=White balance
+;ValueList=0#Auto, 1#Sunny, 2#Cloudy, 3#Tungsten, 4#Fluorescent, 5#Flash, 6#Custom
+[A012-0007]
+Label=白平衡
+ValueList=0#自动, 1#阳光, 2#阴天, 3#钨灯/白炽灯, 4#荧光灯, 5#闪光灯, 6#自定义, 7#黑白, 8#阴影, 9#手动色温, 10#程序1, 11#程序2, 12#程序3, 14#日光荧光灯, 15#自定1, 16#自定2, 17#水下, 18#自定3, 19#自定4, 20#程序4, 21#程序5, 23#自动（环境先决）
+
+;SlowShutter
+;-1 = n/a
+;0 = Off
+;1 = Night Scene
+;2 = On
+;3 = None
+[A012-0008]
+Label=慢速快门
+ValueList=0#关, 1#夜景, 2#开, 3#无, -1#N/A
+;Label=Sequence number
+[A012-0009]
+Label=SN序列号
+
+;OpticalZoomCode
+[A012-000A]
+Label=光学缩放代码
+;CameraTemperature
+[A012-000C]
+Label=相机温度
+;FlashGuideNumber
+[A012-000D]
+Label=闪光灯指数
+
+;AFPointsInFocus
+;0x3000 = None (MF)
+;0x3001 = Right
+;0x3002 = Center
+;0x3003 = Center+Right
+;0x3004 = Left
+;0x3005 = Left+Right
+;0x3006 = Left+Center
+;0x3007 = All
+[A012-000E]
+Label=AF自动对焦点
+ValueList=12288#无, 12289#右侧, 12890#中心, 12891中心+右侧#, 12892左#, 12893#左侧+右侧, 12894#左侧+中心, 12895#全部
+;FlashExposureComp
+[A012-000F]
+Label=闪光灯曝光补偿
+
+;AutoExposureBracketing
+;-1 = On
+;0 = Off
+;1 = On (shot 1)
+;2 = On (shot 2)
+;3 = On (shot 3)
+[A012-0010]
+Label=自动曝光卷帘
+ValueList=0#关, 1#开 1, 2#开 2, 3#开 3, -1#开
+
+[A012-0011]
+Label=AEBBracketValue
+
+;0 = n/a
+;1 = Camera Local Control
+;3 = Computer Remote Control
+;ControlMode
+[A012-0012]
+Label=控制模式
+;FocusDistanceUpper
+[A012-0013]
+Label=焦距上限
+;FocusDistanceLower
+[A012-0014]
+Label=焦距下限
+;FNumber
+[A012-0015]
+Label=光圈值
+;ExposureTime
+[A012-0016]
+Label=曝光时间
+;MeasuredEV2
+[A012-0017]
+Label=EV曝光测量值2
+;BulbDuration
+[A012-0018]
+Label=B门时长
+;CameraType
+;0 = n/a
+;248 = EOS High-end
+;250 = Compact
+;252 = EOS Mid-range
+;255 = DV Camera
+[A012-001A]
+Label=相机类型
+ValueList=0#N/A, 248#EOS高端, 250#Compact, 252#EOS中端, 255#DV相机
+;AutoRotate
+;-1 = n/a
+;0 = None
+;1 = Rotate 90 CW
+;2 = Rotate 180
+;3 = Rotate 270 CW
+[A012-001B]
+Label=自动旋转
+ValueList=-1#N/A, 0#无, 1#顺时90度, 2#180度, 3#顺时270
+
+;NDFilter
+;-1 = n/a
+;0 = Off
+;1 = On
+[A012-001C]
+Label=ND滤镜
+ValueList=-1#N/A, 0#关, 1#开
+;SelfTimer2
+[A012-001D]
+Label=相机定时器2
+;FlashOutput
+[A012-0021]
+Label=闪光灯输出
+
+; --------------------- 厂商注释 (Nikon) ---------------------
+;Label=Image quality
+;ValueList=1#VGA Basic, 2#VGA Normal, 3#VGA Fine, 4#SXGA Basic, 5#SXGA Normal, 6#SXGA Fine, 10#UXGA Basic, 11#UXGA Normal, 12#UXGA Fine
+[A020-0003]
+Label=图像质量
+ValueList=1#VGA Basic, 2#VGA Normal, 3#VGA Fine, 4#SXGA Basic, 5#SXGA Normal, 6#SXGA Fine, 10#UXGA Basic, 11#UXGA Normal, 12#UXGA Fine
+
+;Label=Color mode
+;ValueList=1#Color, 2#Monochrome
+[A020-0004]
+Label=色彩模式
+ValueList=1#彩色, 2#单色
+
+;Label=Image adjustement
+;ValueList=0#Normal, 1#Bright(+), 2#Bright(-), 3#Contrast(+), 4#contrast(-)
+[A020-0005]
+Label=图像调节
+ValueList=0#正常, 1#亮度(+), 2#亮度(-), 3#对比度(+), 4#对比度(-)
+
+;Label=CCD sensitivity
+;ValueList=0#ISO 80, 2#ISO 160, 4#ISO 320, 5#ISO 100
+[A020-0006]
+Label=CCD感光度
+ValueList=0#ISO 80, 2#ISO 160, 4#ISO 320, 5#ISO 100
+
+;Label=White balance
+;ValueList=0#Auto, 2#Preset, 4#Daylight, 5#Fluorescent, 6#Cloudy, 7#Speedlight
+[A020-0007]
+Label=W白平衡
+ValueList=0#自动, 2#预设, 4#阳光, 5#荧光灯, 6#阴天, 7#闪光灯
+
+;Label=Focus
+[A020-0008]
+Label=变焦
+
+;Label=Digital zoom
+[A020-000A]
+Label=数字变焦
+
+;Label=Lens adapter
+;ValueList=0#None, 2#Fisheye
+[A020-000B]
+Label=镜头适配
+ValueList=0#无, 2#鱼眼
+
+; --------------------- 厂商注释 (Nikon) ---------------------
+; Nikon Tags in ExifTool
+
+;[A030-0001]
+;Label=Data version
+;
+;[A030-0002]
+;Label=ISO Setting
+;
+;[A030-0003]
+;Label=Color mode
+;
+;[A030-0004]
+;Label=Image quality
+;
+;[A030-0005]
+;Label=White balance
+;
+;[A030-0006]
+;Label=Image Sharpening
+;
+;[A030-0007]
+;Label=Focus mode
+;
+;[A030-0008]
+;Label=Flash setting
+;
+;[A030-000B]
+;Label=White Balance Fine Tune
+;
+;[A030-000F]
+;Label=ISO Selection
+;
+;[A030-0013]
+;Label=ISO Setting
+;
+;[A030-0016]
+;Label=Image Boundary
+;
+;[A030-0080]
+;Label=Image adjustement
+;
+;[A030-0081]
+;Label=Tone Compensation
+;
+;[A030-0082]
+;Label=Lens adapter
+;
+;[A030-0083]
+;Label=Lens type
+;
+;[A030-0084]
+;Label=Lens
+;
+;[A030-0085]
+;Label=Focus distance
+;
+;[A030-0086]
+;Label=Digital zoom
+;
+;[A030-0087]
+;Label=Flash mode
+;ValueList=0#Did not fire, 8#Fired, Commander Mode, 9#Fired, TTL Mode
+;
+;[A030-0088]
+;Label=AF Point
+;
+;[A030-008D]
+;Label=Color hue
+;
+;[A030-008F]
+;Label=Scene mode
+;
+;[A030-0090]
+;Label=Light source
+;
+;[A030-0092]
+;Label=Hue Adjustment
+;
+;[A030-0094]
+;Label=Saturation
+;
+;[A030-0095]
+;Label=Noise Reduction
+;
+;[A030-00A0]
+;Label=Serial Number
+;
+;[A030-00A7]
+;Label=Shutter Count
+;
+;[A030-00A9]
+;Label=Image Optimization
+;
+;[A030-00AA]
+;Label=Saturation
+;
+;[A030-00AB]
+;Label=Vari Program
+
+
+[A030-0001]
+Label=注释版本
+
+[A030-0002]
+Label=ISO感光设置
+
+[A030-0003]
+Label=色彩模式
+
+[A030-0004]
+Label=图像质量
+
+[A030-0005]
+Label=白平衡
+
+[A030-0006]
+Label=清晰度
+
+[A030-0007]
+Label=对焦模式
+
+[A030-0008]
+Label=闪光灯设置
+
+[A030-000B]
+Label=白平衡基准
+;WB_RBLevels
+[A030-000C]
+Label=WB_RBLevels
+;ProgramShift
+[A030-000d]
+Label=ProgramShift
+
+[A030-000E]
+Label=ExposureDifference
+
+[A030-000F]
+Label=ISO感光选择
+
+[A030-0011]
+Label=PreviewIFD
+;FlashExposureComp
+[A030-0012]
+Label=闪光灯补偿
+
+[A030-0013]
+Label=ISO感光设置
+
+[A030-0014]
+Label=ColorBalanceANRWData
+
+[A030-0016]
+Label=图像边界
+;ExternalFlashExposureComp
+[A030-0017]
+Label=外部闪光灯补偿
+;FlashExposureBracketValue
+[A030-0018]
+Label=闪光曝光卷帘值
+;ExposureBracketValue
+[A030-0019]
+Label=曝光卷帘值
+;ImageProcessing
+[A030-001A]
+Label=图像处理
+;CropHiSpeed
+[A030-001b]
+Label=CropHiSpeed
+[A030-001C]
+Label=曝光调节
+[A030-001D]
+Label=SN序列号
+[A030-001E]
+Label=色彩空间
+[A030-001F]
+Label=VRInfo
+[A030-0020]
+Label=图像授权
+;FaceDetect
+[A030-0021]
+Label=面部识别
+;ActiveD-Lighting
+[A030-0022]
+Label=ActiveD-Lighting
+;PictureControlData
+[A030-0023]
+Label=图像控制数据
+;WorldTime
+[A030-0024]
+Label=世界时间
+;ISOInfo
+[A030-0025]
+Label=ISO感光信息
+;VignetteControl
+[A030-002A]
+Label=光晕控制
+;DistortInfo
+[A030-002B]
+Label=变形信息
+;UnknownInfo
+[A030-002C]
+Label=未知信息标记
+;UnknownInfo2
+[A030-0032]
+Label=未知信息标记2
+;ShutterMode
+[A030-0034]
+Label=快门模式
+;HDRInfo
+[A030-0035]
+Label=HDR信息
+;MechanicalShutterCount
+[A030-0037]
+Label=机械快门记数
+;LocationInfo
+[A030-0039]
+Label=位置信息
+;BlackLevel
+[A030-003D]
+Label=黑阶
+;ImageSizeRAW
+[A030-003E]
+Label=RAW图像尺寸
+;CropArea
+[A030-0045]
+Label=裁切区域
+;NikonSettings
+[A030-004E]
+Label=尼康设置
+;ColorTemperatureAuto
+[A030-004F]
+Label=自动色温
+
+[A030-0080]
+Label=图像调节
+;Tone Compensation
+[A030-0081]
+Label=色调补偿
+
+[A030-0082]
+Label=镜头适配
+
+[A030-0083]
+Label=镜头类型
+
+[A030-0084]
+Label=镜头
+
+[A030-0085]
+Label=手动焦距
+
+[A030-0086]
+Label=数字缩放
+
+;0 = Did Not Fire
+;1 = Fired, Manual
+;3 = Not Ready
+;7 = Fired, External
+;8 = Fired, Commander Mode
+;9 = Fired, TTL Mode
+;18 = LED Light
+[A030-0087]
+Label=闪光灯模式
+ValueList=0#未闪, 1#手动已闪, 3#未准备好, 7#外部闪光,8#闪光, Commander Mode, 9#闪光, TTL Mode, 18#LED灯
+
+[A030-0088]
+Label=AF信息
+;ShootingMode
+[A030-0089]
+Label=拍摄模式
+;LensFStops
+[A030-008B]
+Label=LensFStops
+;ContrastCurve
+[A030-008C]
+Label=对比度曲线
+[A030-008D]
+Label=色调
+
+[A030-008F]
+Label=取景模式
+
+[A030-0090]
+Label=光源
+
+[A030-0091]
+Label=ShotInfo Tags
+
+[A030-0092]
+Label=色调调节
+;NEFCompression
+[A030-0093]
+Label=NEF压缩
+
+[A030-0094]
+Label=饱和度
+
+[A030-0095]
+Label=消除噪点
+;NEFLinearizationTable
+[A030-0096]
+Label=NEF线性表
+;ColorBalance Tags
+[A030-0097]
+Label=ColorBalance Tags
+;LensData Tags
+[A030-0097]
+Label=LensData Tags
+;RawImageCenter
+[A030-0099]
+Label=Raw图像中心
+;SensorPixelSize
+[A030-009A]
+Label=传感器像素大小
+;SceneAssist
+[A030-009C]
+Label=取景辅助
+;DateStampMode
+[A030-009D]
+Label=日期戳模式
+;RetouchHistory
+[A030-009E]
+Label=渲染历史
+[A030-00A0]
+Label=SN序列号
+;ImageDataSize
+[A030-00A2]
+Label=图像数据大小
+;ImageCount
+[A030-00A5]
+Label=图像计数
+;DeletedImageCount
+[A030-00A6]
+Label=删除图像计数
+[A030-00A7]
+Label=快门记数
+;FlashInfo
+[A030-00A8]
+Label=闪光灯信息
+[A030-00A9]
+Label=图像优化
+
+[A030-00AA]
+Label=饱和度
+;Vari Program
+[A030-00AB]
+Label=Vari Program
+
+;ImageStabilization
+[A030-00AC]
+Label=图像稳定
+;AFResponse
+[A030-00AD]
+Label=AF响应
+;MultiExposure
+[A030-00B0]
+Label=多重曝光
+;HighISONoiseReduction
+[A030-00B1]
+Label=高ISO噪点消除
+;ToningEffect
+[A030-00B3]
+Label=调节效果
+;PowerUpTime
+[A030-00B6]
+Label=开机时间
+;AFInfo2
+[A030-00B7]
+Label=AF信息2
+;FileInfo
+[A030-00B8]
+Label=文件信息
+;AFTune
+[A030-00B9]
+Label=AF调节
+;RetouchInfo
+[A030-00BB]
+Label=渲染信息
+;PictureControlData
+[A030-00BD]
+Label=图像控制数据
+;BarometerInfo
+[A030-00C3]
+Label=气压表信息
+;PrintIM
+[A030-0E00]
+Label=PrintIM
+;NikonCaptureData
+[A030-0E01]
+Label=NikonCaptureData
+;NikonCaptureVersion
+[A030-0E09]
+Label=NikonCaptureVersion
+;NikonCaptureOffsets
+[A030-0E0E]
+Label=NikonCaptureOffsets
+;NikonScanIFD
+[A030-0E10]
+Label=NikonScanIFD
+;NikonCaptureEditVersions 
+[A030-0E13]
+Label=NikonCaptureEditVersions 
+;NikonICCProfile
+[A030-0E1D]
+Label=NikonICCProfile
+;NikonCaptureOutput
+[A030-0E1E]
+Label=NikonCaptureOutput
+
+;NEFBitDepth
+[A030-0E22]
+Label=NEFBitDepth
+
+
+; --------------------- 厂商注释 (Casio) ---------------------
+
+;[A040-0001]
+;Label=Recording Mode
+;ValueList=1#Single Shutter, 2#Panorama, 3#Night scene, 4#Portrait, 5#Landscape
+;
+;[A040-0002]
+;Label=Quality setting
+;ValueList = 1#Economy, 2#Normal, 3#Fine
+;
+;[A040-0003]
+;Label=Focus mode
+;ValueList=2#Macro, 3#Auto Focus, 4#Manual Focus, 5#Infinity
+;
+;[A040-0004]
+;Label=Flash mode
+;ValueList=1#Auto, 2#On, 3#Off, 4#Red eyes reduction
+;
+;[A040-0005]
+;Label=Flash intensity
+;ValueList=1#Auto, 2#on, 3#off, 4#Red eyes reduction, 11#Weak, 13#Normal, 15#Strong
+;
+;[A040-0006]
+;Label=Object distance
+;
+;[A040-0007]
+;Label=White balance
+;ValueList=1#Auto, 2#Tungsten, 3#Daylight, 4#Fluorescent, 5#Shade, 129#Manual
+;
+;[A040-000A]
+;Label=Digital zoom
+;ValueList=65536#Off, 65537#2X Digital Zoom
+;
+;[A040-000B]
+;Label=Sharpness
+;ValueList=0#Normal, 1#Soft, 2#Hard
+;
+;[A040-000C]
+;Label=Contrast
+;ValueList=0#Normal, 1#Soft, 2#Hard
+;
+;[A040-000D]
+;Label=Saturation
+;ValueList=0#Normal, 1#Soft, 2#Hard
+;
+;[A040-0014]
+;Label=CCD Sensitivity
+;ValueList=64#Normal, 125#+1.0, 250#+2.0, 244#+31.0, 80#Normal, 100#High
+;
+;; --------------------- 厂商注释 (Casio) ---------------------
+;
+;[A050-0002]
+;Label=Thumbnail Dimensions
+;
+;[A050-0003]
+;Label=Thumbnail Size
+;
+;[A050-0004]
+;Label=Thumbnail Offset
+;
+;[A050-0008]
+;Label=Quality Mode
+;ValueList=0#Economy, 1#Normal, 2#Fine
+;
+;[A050-0009]
+;Label=Image Size
+;ValueList=0#640x480, 4#1600x1200, 5#2048x1536, 20#2288x1712, 21#2592x1944, 22#2304x1728, 36#3008x2008
+;
+;[A050-000D]
+;Label=Focus Mode
+;ValueList=0#Normal, 1#Macro
+;
+;[A050-0014]
+;Label=Iso Sensitivity
+;ValueList=3#50, 4#64, 6#100, 9#200
+;
+;[A050-0019]
+;Label=White Balance
+;ValueList=0#Auto, 1#Daylight, 2#Shade, 3#Tungsten, 4#Fluorescent, 5#Manual
+;
+;[A050-001D]
+;Label=Focal Length
+;
+;[A050-001F]
+;Label=Saturation
+;ValueList=0#-1, 1#Normal, 2#+1
+;
+;[A050-0020]
+;Label=Contrast
+;ValueList=0#-1, 1#Normal, 2#+1
+;
+;[A050-0021]
+;Label=Sharpness
+;ValueList=0#-1, 1#Normal, 2#+1
+;
+;[A050-0e00]
+;Label=Print Image Matching Info
+;
+;[A050-2011]
+;Label=White Balance Bias
+;
+;[A050-2012]
+;Label=White Balance
+;ValueList=12#Flash, 0#Manual, 1#Auto?, 4#Flash?
+;
+;[A050-2022]
+;Label=Object Distance [mm]
+;
+;[A050-2034]
+;Label=Flash Distance
+;
+;[A050-3000]
+;Label=Record Mode
+;ValueList=2#Normal
+;
+;[A050-3001]
+;Label=Self Timer
+;ValueList=1#Off
+;
+;[A050-3002]
+;Label=Quality
+;ValueList=1#Economic, 2#Normal, 3#Fine
+;
+;[A050-3003]
+;Label=Focus Mode
+;ValueList=0#Manual?, 1#Fixation?, 3#Single-Area Auto Focus, 4#Multi-Area Auto Focus
+;
+;[A050-3006]
+;Label=Time Zone
+;
+;[A050-3007]
+;Label=Bestshot Mode
+;ValueList=0#On, 1#Off
+;
+;[A050-3014]
+;Label=CCD ISO Sensitivity
+;
+;[A050-3015]
+;Label=Colour Mode
+;ValueList=0#Off
+;
+;[A050-3016]
+;Label=Enhancement
+;ValueList=0#Off
+;
+;[A050-3017]
+;Label=Filter
+;ValueList=0#Off
+[A040-0001]
+Label=记录模式
+ValueList=1#Single Shutter, 2#Panorama, 3#Night scene, 4#Portrait, 5#Landscape
+
+[A040-0002]
+Label=画质设置
+ValueList = 1#Economy, 2#Normal, 3#Fine
+
+[A040-0003]
+Label=对焦模式
+ValueList=2#Macro, 3#Auto Focus, 4#Manual Focus, 5#Infinity
+
+[A040-0004]
+Label=闪光灯模式
+ValueList=1#Auto, 2#On, 3#Off, 4#Red eyes reduction
+
+[A040-0005]
+Label=闪光强度
+ValueList=1#Auto, 2#on, 3#off, 4#Red eyes reduction, 11#Weak, 13#Normal, 15#Strong
+
+[A040-0006]
+Label=拍摄距离
+
+[A040-0007]
+Label=白平衡
+ValueList=1#Auto, 2#Tungsten, 3#Daylight, 4#Fluorescent, 5#Shade, 129#Manual
+
+[A040-000A]
+Label=数字缩放
+ValueList=65536#Off, 65537#2X Digital Zoom
+
+[A040-000B]
+Label=清晰度
+ValueList=0#Normal, 1#Soft, 2#Hard
+
+[A040-000C]
+Label=对比度
+ValueList=0#Normal, 1#Soft, 2#Hard
+
+[A040-000D]
+Label=饱和度
+ValueList=0#Normal, 1#Soft, 2#Hard
+
+[A040-0014]
+Label=CCD敏感度
+ValueList=64#Normal, 125#+1.0, 250#+2.0, 244#+31.0, 80#Normal, 100#High
+
+; --------------------- 厂商注释 (Casio) ---------------------
+
+[A050-0002]
+Label=缩略图规模
+
+[A050-0003]
+Label=缩略图尺寸
+
+[A050-0004]
+Label=缩略图偏移
+
+[A050-0008]
+Label=画质模式
+ValueList=0#经济, 1#正常, 2#高
+
+[A050-0009]
+Label=图像尺寸
+ValueList=0#640x480, 4#1600x1200, 5#2048x1536, 20#2288x1712, 21#2592x1944, 22#2304x1728, 36#3008x2008
+
+[A050-000D]
+Label=变焦模式
+ValueList=0#正常, 1#微距
+
+[A050-0014]
+Label=ISO感光度
+ValueList=3#50, 4#64, 6#100, 9#200
+
+[A050-0019]
+Label=白平衡
+ValueList=0#自动, 1#阳光, 2#阴影, 3#钨灯, 4#荧光灯, 5#手动
+
+[A050-001D]
+Label=焦距
+
+[A050-001F]
+Label=饱和度
+ValueList=0#-1, 1#标准, 2#+1
+
+[A050-0020]
+Label=对比度
+ValueList=0#-1, 1#标准, 2#+1
+
+[A050-0021]
+Label=清晰度
+ValueList=0#-1, 1#标准, 2#+1
+
+[A050-0e00]
+Label=图像打印匹配信息
+
+[A050-2011]
+Label=白平衡补偿
+
+[A050-2012]
+Label=白平衡
+ValueList=12#闪光灯, 0#手动, 1#自动?, 4#闪光灯?
+
+[A050-2022]
+Label=拍摄距离[mm]
+
+[A050-2034]
+Label=闪光灯距离
+
+[A050-3000]
+Label=记录模式
+ValueList=2#标准
+
+[A050-3001]
+Label=定时器
+ValueList=1#关
+
+[A050-3002]
+Label=画质
+ValueList=1#经济, 2#标准, 3#高
+
+[A050-3003]
+Label=对焦模式
+ValueList=0#手动?, 1#固定对焦?, 3#单区域自动对焦, 4#多区域自动对焦
+
+[A050-3006]
+Label=时区
+
+[A050-3007]
+Label=Bestshot Mode
+ValueList=0#开, 1#关
+
+[A050-3014]
+Label=CCD感光度
+
+[A050-3015]
+Label=彩色模式
+ValueList=0#关
+
+[A050-3016]
+Label=增强
+ValueList=0#关
+
+[A050-3017]
+Label=滤镜
+ValueList=0#关
+
+; --------------------- 厂商注释 (Fuji) ---------------------
+;
+;[A060-0000]
+;Label=Maker Note Version
+;
+;[A060-1000]
+;Label=Quality Setting
+;
+;[A060-1001]
+;Label=Sharpness
+;ValueList=1#Soft, 2#Soft, 3#Normal, 4#Hard, 5#Hard
+;
+;[A060-1002]
+;Label=White balance
+;ValueList=0#Auto, 256#Daylight, 512#Cloudy, 768#DaylightColour-fluorescence, 769#DaywhiteColour-fluorescence, 770#White-fluorescence, 1024#Incandescence, 3840#Custom
+;
+;[A060-1003]
+;Label=Chroma Saturation
+;ValueList=0#Normal, 256#High, 512#Low
+;
+;[A060-1004]
+;Label=Contrast
+;ValueList=0#Normal, 256#High, 512#Low
+;
+;[A060-1010]
+;Label=Flash mode
+;ValueList=0#Auto, 1#On, 2#Off, 3#Red eyes reduction
+;
+;[A060-1011]
+;Label=Flash Strength
+;
+;[A060-1020]
+;Label=Macro mode
+;ValueList=0#Off, 1#On
+;
+;[A060-1021]
+;Label=Focus mode
+;ValueList=0#Auto, 1#Manual
+;
+;[A060-1030]
+;Label=Slow Synchro Mode
+;ValueList=0#Off, 1#On
+;
+;[A060-1031]
+;Label=Picture Mode
+;ValueList=0#Auto, 1#Portrait, 2#Landscape, 4#Sports scene, 5#Night scene, 6#Program AE, 256#Aperture Prior AE, 512#Shutter Prior AE, 768#Manual Exposure
+;
+;[A060-1100]
+;Label=Continuous/Bracketing Mode
+;ValueList=0#Off, 1#On
+;
+;[A060-1300]
+;Label=Blur Status
+;ValueList=0#None, 1#Blur Warning
+;
+;[A060-1301]
+;Label=Focus Status
+;ValueList=0#Ok, 1#Out of Focus
+;
+;[A060-1302]
+;Label=Exposure Status
+;ValueList=0#Ok, 1#Over Exposed
+
+[A060-0000]
+Label=厂商注释版本
+
+[A060-1000]
+Label=画质设置
+
+[A060-1001]
+Label=清晰度
+ValueList=1#弱, 2#弱, 3#标准, 4#强, 5#强
+
+[A060-1002]
+Label=白平衡
+ValueList=0#自动, 256#阳光, 512#阴天, 768#日光色荧光灯, 769#白日光荧光灯, 770#白色荧光灯, 1024#Incandescence, 3840#自定义
+
+[A060-1003]
+Label=Chroma 饱和度
+ValueList=0#标准, 256#高, 512#低
+
+[A060-1004]
+Label=对比度
+ValueList=0#标准, 256#高, 512#低
+
+[A060-1010]
+Label=闪光灯模式
+ValueList=0#自动, 1#开启, 2#关, 3#消除红眼
+
+[A060-1011]
+Label=闪光灯强度
+
+[A060-1020]
+Label=微距模式
+ValueList=0#关, 1#开
+
+[A060-1021]
+Label=对焦模式
+ValueList=0#自动, 1#手动
+
+[A060-1030]
+Label=Slow Synchro Mode
+ValueList=0#关, 1#开
+
+[A060-1031]
+Label=拍摄模式
+ValueList=0#自动, 1#肖像, 2#风景, 4#运动, 5#夜景, 6#程序AE, 256#光圈优先AE, 512#快门优先AE, 768#手动曝光
+
+[A060-1100]
+Label=连拍模式
+ValueList=0#关, 1#开
+
+[A060-1300]
+Label=模糊状态
+ValueList=0#无, 1#模糊警告
+
+[A060-1301]
+Label=对焦状态
+ValueList=0#OK, 1#失焦
+
+[A060-1302]
+Label=曝光状态
+ValueList=0#OK, 1#曝光过度
+
+; --------------------- 厂商注释 (Olympus) ---------------------
+
+;[A070-0200]
+;Label=Shooting mode
+;
+;[A070-0201]
+;Label=Compression setting
+;ValueList=0#SQ, 1#HQ, 2#SHQ
+;
+;[A070-0202]
+;Label=Macro mode
+;ValueList=0#Normal, 1#Macro
+;
+;[A070-0204]
+;Label=Digital zoom
+;
+;[A070-0207]
+;Label=Firmware version
+;
+;[A070-0208]
+;Label=Picture info
+;
+;[A070-0209]
+;Label=Camera ID
+[A070-0200]
+Label=拍摄模式
+
+[A070-0201]
+Label=压缩设置
+ValueList=0#SQ, 1#HQ, 2#SHQ
+
+[A070-0202]
+Label=微距模式
+ValueList=0#正常, 1#微距
+
+[A070-0204]
+Label=数字变焦
+
+[A070-0207]
+Label=固件版本
+
+[A070-0208]
+Label=图像信息
+
+[A070-0209]
+Label=相机ID
+
+; --------------------- 厂商注释 (Sigma) ---------------------
+
+;[A080-0002]
+;Label=Serial Number
+;
+;[A080-0003]
+;Label=Drive mode
+;
+;[A080-0004]
+;Label=Resolution Mode
+;
+;[A080-0005]
+;Label=AF Mode
+;
+;[A080-0006]
+;Label=Focus Setting
+;
+;[A080-0007]
+;Label=White balance
+;
+;[A080-0008]
+;Label=Exposure mode
+;
+;[A080-0009]
+;Label=Metering mode
+;
+;[A080-000A]
+;Label=Lens
+;
+;[A080-000B]
+;Label=Color Space
+;
+;[A080-000C]
+;Label=Exposure Compensation
+;
+;[A080-000D]
+;Label=Contrast
+;
+;[A080-000E]
+;Label=Shadow
+;
+;[A080-000F]
+;Label=Highlight
+;
+;[A080-0010]
+;Label=Saturation
+;
+;[A080-0011]
+;Label=Sharpness
+;
+;[A080-0012]
+;Label=X3 Fill Light
+;
+;[A080-0014]
+;Label=Color Adjustement
+;
+;[A080-0015]
+;Label=Adjustment Mode
+;
+;[A080-0016]
+;Label=Quality
+;
+;[A080-0017]
+;Label=Firmware Mode
+;
+;[A080-0018]
+;Label=Software
+;
+;[A080-0019]
+;Label=Auto Bracket
+[A080-0002]
+Label=SN序列号
+
+[A080-0003]
+Label=驱动模式
+
+[A080-0004]
+Label=解析模式
+
+[A080-0005]
+Label=AF模式
+
+[A080-0006]
+Label=对焦设置
+
+[A080-0007]
+Label=白平衡
+
+[A080-0008]
+Label=曝光模式
+
+[A080-0009]
+Label=测光模式
+
+[A080-000A]
+Label=镜头
+
+[A080-000B]
+Label=色彩空间
+
+[A080-000C]
+Label=曝光补偿
+
+[A080-000D]
+Label=对比度
+
+[A080-000E]
+Label=阴影
+
+[A080-000F]
+Label=高光
+
+[A080-0010]
+Label=饱和度
+
+[A080-0011]
+Label=清晰度
+
+[A080-0012]
+Label=X3 填充光线
+
+[A080-0014]
+Label=色彩调节
+
+[A080-0015]
+Label=调节模式
+
+[A080-0016]
+Label=画质
+
+[A080-0017]
+Label=固件型号
+
+[A080-0018]
+Label=软件
+
+[A080-0019]
+Label=自动连拍
+
+; --------------------- 厂商注释 (Sanyo) ---------------------
+;
+;[A090-00ff]
+;Label=Maker Note Offset
+;
+;[A090-0100]
+;Label=Thumbnail
+;
+;[A090-0200]
+;Label=Special Mode
+;
+;[A090-0201]
+;Label=Quality
+;ValueList=0#Normal/Very Low, 1#Normal/Low, 2#Normal/Medium Low, 3#Normal/Medium, 4#Normal/Medium High, 5#Normal/High, 6#Normal/Very High, 7#Normal/Super High, 256#Fine/Very Low, 257#Fine/Low, 258#Fine/Medium Low, 259#Fine/Medium, 260#Fine/Medium High, 261#Fine/High, 262#Fine/Very High, 263#Fine/Super High, 512#Super Fine/Very Low, 513#Super Fine/Low, 514#Super Fine/Medium Low, 515#Super Fine/Medium, 516#Super Fine/Medium High, 517#Super Fine/High, 518#Super Fine/Very High, 519#Super Fine/Super High
+;
+;[A090-0202]
+;Label=Macro
+;ValueList=0#Normal, 1#Macro, 2#View, 3#Manual
+;
+;[A090-0204]
+;Label=Digital zoom
+;
+;[A090-0207]
+;Label=Software Version
+;
+;[A090-0208]
+;Label=Picture Info
+;
+;[A090-0209]
+;Label=Camera ID
+;
+;[A090-020E]
+;Label=Sequential Shot
+;ValueList=0#None, 1#Standard, 2#Best, 3#Adjust Exposure
+;
+;[A090-020F]
+;Label=Wide Range
+;ValueList=0#Off, 1#On
+;
+;[A090-0210]
+;Label=Color Adjustment Mode
+;ValueList=0#Off, 1#On
+;
+;[A090-0213]
+;Label=QuickShot
+;ValueList=0#Off, 1#On
+;
+;[A090-0214]
+;Label=Self Timer
+;ValueList=0#Off, 1#On
+;
+;[A090-0216]
+;Label=Voice Memo
+;ValueList=0#Off, 1#On
+;
+;[A090-0217]
+;Label=Record Shutter Release
+;ValueList=0#Record while down, 1#Press start, press stop
+;
+;[A090-0218]
+;Label=Flicker Reduce
+;ValueList=0#Off, 1#On
+;
+;[A090-0219]
+;Label=Optical Zoom
+;ValueList=0#Off, 1#On
+;
+;[A090-021B]
+;Label=Digital Zoom
+;ValueList=0#Off, 1#On
+;
+;[A090-021D]
+;Label=Light Source Special
+;ValueList=0#Off, 1#On
+;
+;[A090-021E]
+;Label=Resaved
+;ValueList=0#No, 1#Yes
+;
+;[A090-021F]
+;Label=Scene Select
+;
+;ValueList=0#Off, 1#Sport, 2#Tv, 3#Night, 4#User 1, 5#User 2
+;[A090-0223]
+;Label=Manual Focus Distance
+;
+;[A090-0224]
+;Label=Sequence Shot Interval
+;ValueList=0#5 frames/sec, 1#10 frames/sec, 2#15 frames/sec, 3#20 frames/sec
+;
+;[A090-0225]
+;Label=Flash mode
+;ValueList=0#Auto, 1#Force, 2#Disabled, 3#Red eye
+
+[A090-00ff]
+Label=厂商注释偏移
+
+[A090-0100]
+Label=缩略图
+
+[A090-0200]
+Label=特殊模式
+
+[A090-0201]
+Label=画质
+ValueList=0#Normal/Very Low, 1#Normal/Low, 2#Normal/Medium Low, 3#Normal/Medium, 4#Normal/Medium High, 5#Normal/High, 6#Normal/Very High, 7#Normal/Super High, 256#Fine/Very Low, 257#Fine/Low, 258#Fine/Medium Low, 259#Fine/Medium, 260#Fine/Medium High, 261#Fine/High, 262#Fine/Very High, 263#Fine/Super High, 512#Super Fine/Very Low, 513#Super Fine/Low, 514#Super Fine/Medium Low, 515#Super Fine/Medium, 516#Super Fine/Medium High, 517#Super Fine/High, 518#Super Fine/Very High, 519#Super Fine/Super High
+
+[A090-0202]
+Label=微距
+ValueList=0#正常, 1#微距, 2#View, 3#手动
+
+[A090-0204]
+Label=数字变焦
+
+[A090-0207]
+Label=软件版本
+
+[A090-0208]
+Label=图像信息
+
+[A090-0209]
+Label=相机ID
+
+[A090-020E]
+Label=连续拍摄
+ValueList=0#无, 1#标准, 2#最佳, 3#调节曝光
+
+[A090-020F]
+Label=宽幅
+ValueList=0#关, 1#开
+
+[A090-0210]
+Label=色彩调节模式
+ValueList=0#关, 1#开
+
+[A090-0213]
+Label=快速拍摄
+ValueList=0#关, 1#开
+
+[A090-0214]
+Label=定时器
+ValueList=0#关, 1#开
+
+[A090-0216]
+Label=语音备注
+ValueList=0#关, 1#开
+
+[A090-0217]
+Label=记录快门释放
+ValueList=0#Record while down, 1#Press start, press stop
+
+[A090-0218]
+Label=Flicker Reduce
+ValueList=0#Off, 1#On
+
+[A090-0219]
+Label=光学变焦
+ValueList=0#关, 1#开
+
+[A090-021B]
+Label=数字变焦
+ValueList=0#关, 1#开
+
+[A090-021D]
+Label=光源
+ValueList=0#关, 1#开
+
+[A090-021E]
+Label=重新保存
+ValueList=0#否, 1#是
+
+[A090-021F]
+Label=取景模式
+ValueList=0#关, 1#运动, 2#TV, 3#夜景, 4#用户1, 5#用户2
+[A090-0223]
+Label=手动焦距
+
+[A090-0224]
+Label=连接间隔
+ValueList=0#5 帧/秒, 1#10 帧/秒, 2#15 帧/秒, 3#20 帧/秒
+
+[A090-0225]
+Label=闪光灯模式
+ValueList=0#自动, 1#强制, 2#关闭, 3#消除红眼
+
+
+; --------------------- 厂商注释 (Minolta) ---------------------
+
+;[A0A0-0000]
+;Label=Version
+;
+;[A0A0-0040]
+;Label=Compressed Image
+;
+;[A0A0-0081]
+;Label=Preview Image Data
+;
+;[A0A0-0088]
+;Label=Preview Image Start
+;
+;[A0A0-0089]
+;Label=Preview Image Length
+;
+;[A0A0-0101]
+;Label=Color Mode
+;ValueList=0#Natural color, 1#Black&white, 2#Vivid color, 3#Solarization, 4#Adobe RGB
+;
+;[A0A0-0102]
+;Label=Minolta Quality
+;ValueList=0#Raw, 1#Super fine, 2#Fine, 3#Standard, 4#Economy, 5#Extra fine
+;
+;[A0A0-0103]
+;Label=Minolta Quality
+;ValueList=0#Raw, 1#Super fine, 2#Fine, 3#Standard, 4#Economy, 5#Extra fine
+
+[A0A0-0000]
+Label=版本
+
+[A0A0-0040]
+Label=图像压缩
+
+[A0A0-0081]
+Label=预览图数据
+
+[A0A0-0088]
+Label=预览图偏移
+
+[A0A0-0089]
+Label=预览图数据长度
+
+[A0A0-0101]
+Label=色彩模式
+ValueList=0#自然色彩, 1#黑白色, 2#鲜艳色彩, 3#过饱和, 4#Adobe RGB
+
+[A0A0-0102]
+Label=Minolta 画质
+ValueList=0#Raw, 1#超佳, 2#佳, 3#标准, 4#经济, 5#Extra fine
+
+[A0A0-0103]
+Label=Minolta 画质
+ValueList=0#Raw, 1#超佳, 2#佳, 3#标准, 4#经济, 5#Extra fine
+
+; --------------------- 厂商注释 (Minolta) ---------------------
+
+;[A0B0-0001]
+;Label=Exposure mode
+;ValueList=0#Program, 1#Aperture priority, 2#Shutter priority, 3#Manual
+;
+;[A0B0-0002]
+;Label=Flash mode
+;ValueList=0#Fill flash, 1#Red eyes reduction, 2#Rear flash sync, 3#Wireless
+;
+;[A0B0-0003]
+;Label=White balance
+;ValueList=0#Auto, 1#Daylight, 2#Cloudy, 3#Tungsten, 5#Custom, 7#Fluorescent, 8#Fluorescent 2, 11#Custom 2, 12#Custom 3
+;
+;[A0B0-0004]
+;Label=Image size
+;ValueList=0#2560x1920 (2048x1536), 1#1600x1200, 2#1280x960, 3#640x480
+;
+;[A0B0-0005]
+;Label=Image quality
+;
+;[A0B0-0006]
+;Label=Drive mode
+;ValueList=0#Single, 1#Continuous, 2#Self-timer, 4#bracketing, 5#interval, 6#UHS continuous, 7#HS continuous
+;
+;[A0B0-0007]
+;Label=Metering mode
+;ValueList=0#Multi-segment, 1#Center-weighted, 2#Spot
+;
+;[A0B0-0008]
+;Label=ISO
+;
+;[A0B0-0009]
+;Label=Shutter speed
+;
+;[A0B0-000A]
+;Label=Aperture
+;
+;[A0B0-000B]
+;Label=Macro mode
+;ValueList=0#Off, 1#On
+;
+;[A0B0-000C]
+;Label=Digital zoom
+;ValueList=0#Off, 1#Electronic magnification, 2#2x
+;
+;[A0B0-000D]
+;Label=Exposure Compensation
+;
+;[A0B0-000E]
+;Label=Bracket Step
+;ValueList=0#1/3 EV, 1#2/3 EV, 2#1 EV
+;
+;[A0B0-000F]
+;Label=Interval Length
+;
+;[A0B0-0011]
+;Label=Interval Number
+;
+;[A0B0-0012]
+;Label=Focal length
+;
+;[A0B0-0013]
+;Label=Focal distance
+;
+;[A0B0-0014]
+;Label=Flash fired
+;ValueList=0#No, 1#Yes
+;
+;[A0B0-0015]
+;Label=Date
+;
+;[A0B0-0016]
+;Label=Time
+;
+;[A0B0-0017]
+;Label=Max aperture
+;
+;[A0B0-001A]
+;Label=File Number Memory
+;ValueList=0#Off, 1#On
+;
+;[A0B0-001B]
+;Label=Last File Number
+;
+;[A0B0-001C]
+;Label=Color Balance Red
+;
+;[A0B0-001D]
+;Label=Color Balance Green
+;
+;[A0B0-001E]
+;Label=Color Balance Blue
+;
+;[A0B0-001F]
+;Label=Saturation
+;
+;[A0B0-0020]
+;Label=Contrast
+;
+;[A0B0-0021]
+;Label=Sharpness
+;ValueList=0#Hard, 1#Normal, 2#Soft
+;
+;[A0B0-0022]
+;Label=Subject Program
+;ValueList=0#None, 1#Portrait, 2#Text, 3#Night portrait, 4#Sunset, 5#Sports action
+;
+;[A0B0-0023]
+;Label=Flash Exposure Comp
+;
+;[A0B0-0024]
+;Label=ISO setting
+;ValueList=0#100, 1#200, 2#400, 3#800, 4#Auto
+;
+;[A0B0-0025]
+;Label=Model
+;ValueList=0#DiMAGE 7, 1#DiMAGE 5, 2#DiMAGE S304, 3#DiMAGE S404, 4#DiMAGE 7i, 5#DiMAGE 7Hi
+;
+;[A0B0-0026]
+;Label=Interval mode
+;ValueList=0#Still image, 1#Time-lapse Movie
+;
+;[A0B0-0027]
+;Label=Folder name
+;ValueList=0#Standard Form, 1#Data form
+;
+;[A0B0-0028]
+;Label=Color mode
+;
+;[A0B0-0029]
+;Label=Color filter
+;
+;[A0B0-002A]
+;Label=BWFilter
+;
+;[A0B0-002B]
+;Label=Internal Flash
+;ValueList=0#No, 1#Fired
+;
+;[A0B0-002C]
+;Label=Brightness
+;
+;[A0B0-002D]
+;Label=SpotFocusPointX
+;
+;[A0B0-002E]
+;Label=SpotFocusPointY
+;
+;[A0B0-002F]
+;Label=Wide Focus Zone
+;ValueList=0#No zone, 1#Center zone (horizontal orientation), 2#Center zone (vertical orientation), 3#Left zone, 4#Right zone
+;
+;[A0B0-0030]
+;Label=Focus mode
+;ValueList=0#AF, 1#MF
+;
+;[A0B0-0031]
+;Label=Focus Area
+;ValueList=0#Wide Focus (normal), 1#Spot Focus
+;
+;[A0B0-0032]
+;Label=DECPosition
+;ValueList=0#Exposure, 1#Contrast, 2#Saturation, 3#Filter
+[A0B0-0001]
+Label=曝光模式
+ValueList=0#程序, 1#光圈优先, 2#快门优先, 3#手动
+
+[A0B0-0002]
+Label=闪光模式
+ValueList=0#Fill flash, 1#消除红眼, 2#尾闪同步, 3#无线闪光灯
+
+[A0B0-0003]
+Label=白平衡
+ValueList=0#自动, 1#阳光, 2#阴天, 3#钨丝灯, 5#自定义, 7#荧光灯, 8#荧光灯 2, 11#自定义 2, 12#自定义 3
+
+[A0B0-0004]
+Label=图像尺寸
+ValueList=0#2560x1920 (2048x1536), 1#1600x1200, 2#1280x960, 3#640x480
+
+[A0B0-0005]
+Label=图像画质
+
+[A0B0-0006]
+Label=拍摄模式
+ValueList=0#单张, 1#连拍, 2#定时拍摄, 4#bracketing, 5#间隔, 6#UHS连续, 7#HS连续
+
+[A0B0-0007]
+Label=测光模式
+ValueList=0#多区域测光, 1#中心权重测光, 2#点测光
+
+[A0B0-0008]
+Label=ISO感光度
+
+[A0B0-0009]
+Label=快门速度
+
+[A0B0-000A]
+Label=光圈
+
+[A0B0-000B]
+Label=微距模式
+ValueList=0#关, 1#开
+
+[A0B0-000C]
+Label=数字变焦
+ValueList=0#关, 1#电子放大, 2#2x
+
+[A0B0-000D]
+Label=曝光补偿
+
+[A0B0-000E]
+Label=Bracket Step
+ValueList=0#1/3 EV, 1#2/3 EV, 2#1 EV
+
+[A0B0-000F]
+Label=间隔长度
+
+[A0B0-0011]
+Label=间隔数
+
+[A0B0-0012]
+Label=焦距
+
+[A0B0-0013]
+Label=焦点距离
+
+[A0B0-0014]
+Label=闪光闪烁
+ValueList=0#未, 1#闪光
+
+[A0B0-0015]
+Label=日期
+
+[A0B0-0016]
+Label=时间
+
+[A0B0-0017]
+Label=最大光圈
+
+[A0B0-001A]
+Label=记忆文件编号
+ValueList=0#Off, 1#On
+
+[A0B0-001B]
+Label=最后文件编号
+
+[A0B0-001C]
+Label=红色平衡
+
+[A0B0-001D]
+Label=绿色平衡
+
+[A0B0-001E]
+Label=蓝色平衡
+
+[A0B0-001F]
+Label=饱和度
+
+[A0B0-0020]
+Label=对比度
+
+[A0B0-0021]
+Label=锐度
+ValueList=0#强, 1#正常, 2#弱
+
+[A0B0-0022]
+Label=取景程序
+ValueList=0#无, 1#肖像, 2#文本, 3#夜景肖像, 4#夕阳, 5#运动
+
+[A0B0-0023]
+Label=闪光灯曝光补偿
+
+[A0B0-0024]
+Label=ISO感光设置
+ValueList=0#100, 1#200, 2#400, 3#800, 4#自动
+
+[A0B0-0025]
+Label=模式
+ValueList=0#DiMAGE 7, 1#DiMAGE 5, 2#DiMAGE S304, 3#DiMAGE S404, 4#DiMAGE 7i, 5#DiMAGE 7Hi
+
+[A0B0-0026]
+Label=间隔模式
+ValueList=0#静止图像, 1#Time-lapse Movie
+
+[A0B0-0027]
+Label=文件夹名
+ValueList=0#标准形式, 1#数据形式
+
+[A0B0-0028]
+Label=色彩模式
+
+[A0B0-0029]
+Label=色彩滤镜
+
+[A0B0-002A]
+Label=黑色滤镜
+
+[A0B0-002B]
+Label=频闪
+ValueList=0#关, 1#闪烁
+
+[A0B0-002C]
+Label=亮度
+
+[A0B0-002D]
+Label=水平焦点X
+
+[A0B0-002E]
+Label=垂直焦点Y
+
+[A0B0-002F]
+Label=宽对焦区
+ValueList=0#No zone, 1#Center zone (horizontal orientation), 2#Center zone (vertical orientation), 3#Left zone, 4#Right zone
+
+[A0B0-0030]
+Label=对焦模式
+ValueList=0#AF, 1#MF
+
+[A0B0-0031]
+Label=对焦区域
+ValueList=0#Wide Focus (normal), 1#Spot Focus
+
+[A0B0-0032]
+Label=DEC位置
+ValueList=0#曝光, 1#对比度, 2#饱和度, 3#滤镜
+
+
+; --------------------- 厂商注释 (Apple) ---------------------
+; Higher Address is not right
+;RunTime
+[A0D0-0003]
+Label=运行时
+
+[A0D0-0004]
+Label=RunTimeEpoch
+[A0D0-0005]
+Label=RunTimeFlags
+[A0D0-0006]
+Label=RunTimeScale
+[A0D0-0007]
+Label=RunTimeValue
+
+;AccelerationVector
+[A0D0-0008]
+Label=加速向量
+
+;HDRImageType
+;3 = HDR Image 
+;4 = Original Image
+[A0D0-000A]
+Label=HDR图像类型
+ValueList=3#HDR图像, 4#原始图像
+;BurstUUID
+[A0D0-000B]
+Label=Burst UUID
+
+;MediaGroupUUID
+[A0D0-0011]
+Label=MediaGroup UUID
+;ImageUniqueID
+[A0D0-0015]
+Label=Image UUID
+
+; --------------------- External words ---------------------
+;0#Uncalibrated, 1#RGB uncompressed
+[E000-0000]
+Label=
+ValueList=0#未校准C, 1#RGB非压缩C
+
+;2#A directly photographed image
+[E000-0001]
+Label=
+ValueList=2#直接拍摄成像
+
+3#Inch, 4#Centimeter
+[E000-0002]
+Label=
+ValueList=3#英寸, 4#厘米
+
+;5#No flash, 6#Flash fired, 7#Strobe return light not detected, 8#Strobe return light detected
+[E000-0003]
+Label=
+;ValueList=5#无闪光, 6#闪光, 7#未侦测到频闪反光, 8#侦测到频闪反光
+
+;Flash
+;0x0	= No Flash
+;0x1	= Fired
+;0x5	= Fired, Return not detected
+;0x7	= Fired, Return detected
+;0x8	= On, Did not fire
+;0x9	= On, Fired
+;0xd	= On, Return not detected
+;0xf	= On, Return detected
+;0x10	= Off, Did not fire
+;0x14	= Off, Did not fire, Return not detected
+;0x18	= Auto, Did not fire
+;0x19	= Auto, Fired
+;0x1d	= Auto, Fired, Return not detected
+;0x1f	= Auto, Fired, Return detected
+;0x20	= No flash function
+;0x30	= Off, No flash function
+;0x41	= Fired, Red-eye reduction
+;0x45	= Fired, Red-eye reduction, Return not detected
+;0x47	= Fired, Red-eye reduction, Return detected
+;0x49	= On, Red-eye reduction
+;0x4d	= On, Red-eye reduction, Return not detected
+;0x4f	= On, Red-eye reduction, Return detected
+;0x50	= Off, Red-eye reduction
+;0x58	= Auto, Did not fire, Red-eye reduction
+;0x59	= Auto, Fired, Red-eye reduction
+;0x5d	= Auto, Fired, Red-eye reduction, Return not detected
+;0x5f	= Auto, Fired, Red-eye reduction, Return detected
+ValueList=0#关闭, 1#打开, 5#频闪光线未侦测到, 6#闪光, 7#频闪光线已侦测到, 8#打开(未闪), 9#打开(强制), 13#打开(强制/不探测返回光线), 15#打开(强制/探测返回光线), 16#关闭(强制), 20#关闭(强制/不探测返回光线), 24#关闭(自动), 25#打开(自动), 29#打开(自动/不探测返回光线), 31#打开(自动/探测返回光线), 32#无闪光功能, 48#关(无闪光灯), 65#打开(防红眼), 69#打开(防红眼/不探测返回光线), 71#打开(防红眼/探测返回光线), 73#打开(强制/防红眼), 77#打开(强制/防红眼/不探测返回光线), 79#打开(强制/防红眼/探测返回光线), 80#关闭(防红眼), 88#关闭(自动/防红眼), 89#打开(自动/防红眼), 93#打开(自动/防红眼/不探测返回光线), 95#打开(自动/防红眼/探测返回光线)
